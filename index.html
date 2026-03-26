@@ -3,13 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A polished public demo of a Hyperliquid conviction board built from Nansen CLI-style trader analytics.">
     <title>Hyperliquid Conviction Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <main class="shell">
       <section id="overview" class="hero">
         <div class="hero-frame">
+          <div class="hero-topbar">
+            <div class="hero-terminal">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="hero-topbar-copy">
+              <strong>Conviction Desk</strong>
+              <span>Public static build of a Nansen CLI judgment layer</span>
+            </div>
+          </div>
           <div class="hero-grid">
             <div class="hero-copy">
               <p class="eyebrow">Hyperliquid Conviction Board</p>
@@ -35,7 +50,7 @@
               </div>
             </div>
             <div class="hero-side">
-              <article class="hero-mini-card">
+              <article class="hero-mini-card hero-mini-card-accent">
                 <p class="change-type">What Hits First</p>
                 <h3>Distilled Alpha Before The Deep Dive</h3>
                 <p class="change-summary">
@@ -164,7 +179,7 @@
         <div id="desk-snapshot-list" class="snapshot-grid"></div>
       </section>
 
-      <section id="alpha-now" class="panel panel-tight">
+      <section id="alpha-now" class="panel panel-tight panel-featured">
         <div class="section-head">
           <div>
             <p class="kicker">Distilled Alpha</p>
@@ -175,7 +190,7 @@
         <div id="top-recommendation-list" class="watchlist-grid"></div>
       </section>
 
-      <section id="market-pulse" class="panel panel-tight">
+      <section id="market-pulse" class="panel panel-tight panel-featured panel-cool">
         <div class="section-head">
           <div>
             <p class="kicker">Market Context</p>
@@ -186,7 +201,7 @@
         <div id="market-pulse-list" class="watchlist-grid"></div>
       </section>
 
-      <section id="playbook" class="panel panel-tight">
+      <section id="playbook" class="panel panel-tight panel-featured panel-warm">
         <div class="section-head">
           <div>
             <p class="kicker">Use It Today</p>

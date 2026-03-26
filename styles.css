@@ -1,6 +1,7 @@
 :root {
   --bg: #f2ede2;
   --panel: rgba(255, 252, 246, 0.92);
+  --panel-strong: rgba(255, 250, 242, 0.96);
   --line: rgba(31, 43, 34, 0.12);
   --text: #172018;
   --muted: #59665a;
@@ -25,7 +26,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Segoe UI", "Inter", system-ui, sans-serif;
+  font-family: "DM Sans", system-ui, sans-serif;
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(92, 127, 86, 0.2), transparent 34%),
@@ -34,7 +35,34 @@ body {
     var(--bg);
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(30, 90, 67, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 90, 67, 0.03) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 16% 18%, rgba(30, 90, 67, 0.14), transparent 26%),
+    radial-gradient(circle at 82% 12%, rgba(178, 140, 72, 0.18), transparent 24%),
+    radial-gradient(circle at 72% 78%, rgba(124, 98, 48, 0.08), transparent 24%);
+  filter: blur(26px);
+}
+
 .shell {
+  position: relative;
+  z-index: 1;
   width: min(1240px, calc(100vw - 32px));
   margin: 0 auto;
   padding: 36px 0 64px;
@@ -45,6 +73,7 @@ body {
 }
 
 .hero-frame {
+  position: relative;
   padding: 28px;
   border: 1px solid rgba(31, 43, 34, 0.1);
   border-radius: 28px;
@@ -52,6 +81,81 @@ body {
     linear-gradient(155deg, rgba(255, 251, 244, 0.96), rgba(242, 248, 241, 0.92)),
     radial-gradient(circle at top right, rgba(178, 140, 72, 0.13), transparent 26%);
   box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-frame::after {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -60px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(30, 90, 67, 0.14), transparent 68%);
+  pointer-events: none;
+}
+
+.hero-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding: 10px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(31, 43, 34, 0.08);
+  background: rgba(255, 255, 255, 0.46);
+  backdrop-filter: blur(10px);
+}
+
+.hero-terminal {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.hero-terminal span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(31, 43, 34, 0.22);
+}
+
+.hero-terminal span:first-child {
+  background: rgba(135, 69, 65, 0.72);
+}
+
+.hero-terminal span:nth-child(2) {
+  background: rgba(178, 140, 72, 0.76);
+}
+
+.hero-terminal span:nth-child(3) {
+  background: rgba(36, 88, 64, 0.72);
+}
+
+.hero-topbar-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
+  width: 100%;
+}
+
+.hero-topbar-copy strong,
+.hero-topbar-copy span {
+  font-family: "Space Mono", monospace;
+  font-size: 0.77rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-topbar-copy strong {
+  color: var(--accent-strong);
+}
+
+.hero-topbar-copy span {
+  color: var(--muted);
 }
 
 .hero-grid {
@@ -93,6 +197,7 @@ body {
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.03em;
+  font-family: "Space Mono", monospace;
 }
 
 .hero-note {
@@ -146,6 +251,13 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(245, 241, 232, 0.88));
 }
 
+.hero-mini-card-accent {
+  background:
+    linear-gradient(180deg, rgba(255, 251, 241, 0.92), rgba(230, 241, 232, 0.94)) padding-box,
+    linear-gradient(135deg, rgba(30, 90, 67, 0.42), rgba(178, 140, 72, 0.28)) border-box;
+  border: 1px solid transparent;
+}
+
 .hero-meta-pill {
   flex-direction: column;
   align-items: flex-start;
@@ -185,6 +297,7 @@ body {
   letter-spacing: 0.12em;
   font-size: 0.72rem;
   font-weight: 700;
+  font-family: "Space Mono", monospace;
 }
 
 .disclaimer-strip {
@@ -210,6 +323,7 @@ body {
 .drawer-item span,
 .drawer-stat span {
   color: var(--muted);
+  font-family: "Space Mono", monospace;
 }
 
 .eyebrow,
@@ -228,7 +342,7 @@ h2,
 .about-card h3,
 .drawer-block h3,
 .hero-mini-card h3 {
-  font-family: "Georgia", "Palatino Linotype", "Times New Roman", serif;
+  font-family: "Syne", "Trebuchet MS", sans-serif;
   letter-spacing: -0.02em;
 }
 
@@ -237,6 +351,7 @@ h1 {
   max-width: 900px;
   font-size: clamp(2.3rem, 4.2vw, 4.6rem);
   line-height: 0.95;
+  text-wrap: balance;
 }
 
 h2 {
@@ -250,6 +365,7 @@ h2 {
   font-size: 1.08rem;
   line-height: 1.7;
   color: var(--muted);
+  text-wrap: pretty;
 }
 
 .nav-chips,
@@ -291,6 +407,9 @@ h2 {
   text-decoration: none;
   font-weight: 700;
   border: 1px solid rgba(53, 91, 63, 0.14);
+  font-family: "Space Mono", monospace;
+  font-size: 0.77rem;
+  letter-spacing: 0.04em;
 }
 
 .nav-chips a:hover {
@@ -428,6 +547,7 @@ h2 {
 }
 
 .panel {
+  position: relative;
   margin-top: 22px;
   padding: 24px;
   border: 1px solid var(--line);
@@ -435,6 +555,34 @@ h2 {
   background: var(--panel);
   box-shadow: var(--shadow);
   backdrop-filter: blur(12px);
+}
+
+.panel::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(30, 90, 67, 0.2), rgba(178, 140, 72, 0.16), transparent 60%);
+}
+
+.panel-featured {
+  background:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.95), rgba(248, 245, 236, 0.92)) padding-box,
+    linear-gradient(135deg, rgba(30, 90, 67, 0.18), rgba(178, 140, 72, 0.18)) border-box;
+  border: 1px solid transparent;
+}
+
+.panel-cool {
+  background:
+    linear-gradient(180deg, rgba(249, 252, 250, 0.96), rgba(241, 247, 243, 0.94)) padding-box,
+    linear-gradient(135deg, rgba(30, 90, 67, 0.18), rgba(110, 142, 128, 0.18)) border-box;
+}
+
+.panel-warm {
+  background:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.96), rgba(251, 244, 232, 0.94)) padding-box,
+    linear-gradient(135deg, rgba(178, 140, 72, 0.2), rgba(30, 90, 67, 0.14)) border-box;
 }
 
 .panel-tight {
@@ -455,6 +603,7 @@ h2 {
 
 .section-head .meta {
   max-width: 62ch;
+  text-wrap: pretty;
 }
 
 .watch-card,
@@ -467,6 +616,7 @@ h2 {
   padding: 16px;
   border-radius: 18px;
   border: 1px solid var(--line);
+  box-shadow: 0 10px 22px rgba(21, 28, 22, 0.03);
 }
 
 .watch-card {
@@ -542,6 +692,7 @@ h2 {
   letter-spacing: 0.12em;
   font-size: 0.78rem;
   font-weight: 700;
+  font-family: "Space Mono", monospace;
 }
 
 .watch-reason,
@@ -584,6 +735,7 @@ h2 {
   font-weight: 700;
   color: var(--accent-strong);
   background: rgba(255, 255, 255, 0.9);
+  font-family: "Space Mono", monospace;
 }
 
 .tool-button:hover,
@@ -954,6 +1106,12 @@ th {
 
   .hero-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-topbar,
+  .hero-topbar-copy {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .hero-actions {
