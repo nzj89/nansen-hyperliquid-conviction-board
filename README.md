@@ -11,3 +11,8 @@ What this demo shows:
 - wallet-level drill-down with copyable addresses
 
 This public site is a demo build using the generated static snapshot in `data/`.
+
+Backend note:
+
+- no backend is required to host this public demo
+- a backend or scheduled machine is only needed if you want fresh Nansen CLI pulls, auth-protected refreshes, alerts, or automatic redeploys

@@ -216,6 +216,35 @@ function renderSummary(summary, mode) {
   );
 }
 
+function renderRuntimeStrip(dashboard) {
+  const generatedNode = document.querySelector("#runtime-generated");
+  const modeNode = document.querySelector("#runtime-mode");
+  const signalNode = document.querySelector("#runtime-signal");
+  const backendNode = document.querySelector("#runtime-backend");
+
+  if (generatedNode) {
+    generatedNode.textContent = fmtDate(dashboard.generatedAt);
+  }
+
+  if (modeNode) {
+    modeNode.textContent =
+      dashboard.mode === "live"
+        ? "Live CLI snapshot"
+        : "Static sample snapshot";
+  }
+
+  if (signalNode) {
+    signalNode.textContent = dashboard.summary?.strongestSignal || "No active signal";
+  }
+
+  if (backendNode) {
+    backendNode.textContent =
+      dashboard.mode === "live"
+        ? "No always-on backend required. A scheduled machine can refresh the CLI snapshot and redeploy."
+        : "This public demo is static. Add a backend or scheduled refresh job only if you want live Nansen pulls and alerts.";
+  }
+}
+
 function buildDeskSnapshot() {
   const dashboard = state.dashboard;
   if (!dashboard) return [];
@@ -1477,6 +1506,7 @@ async function main() {
   document.querySelector("#meta").textContent =
     `Last refresh: ${fmtDate(state.dashboard.generatedAt)} - ${state.dashboard.mode.toUpperCase()}`;
 
+  renderRuntimeStrip(state.dashboard);
   renderSummary(state.dashboard.summary, state.dashboard.mode);
   renderDeskSnapshot(buildDeskSnapshot());
   renderTopRecommendations(state.dashboard.topRecommendations || []);

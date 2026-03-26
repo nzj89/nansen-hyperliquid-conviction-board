@@ -23,6 +23,11 @@
                 <span class="hero-badge">Built for swing-style stalking</span>
                 <span class="hero-badge">Transformed analytics, not blind copying</span>
               </div>
+              <div class="hero-actions">
+                <a class="hero-button hero-button-primary" href="#alpha-now">See Best Trades</a>
+                <a class="hero-button hero-button-secondary" href="#how-to-use">How To Use It</a>
+                <a class="hero-button hero-button-secondary" href="https://github.com/nzj89/nansen-hyperliquid-conviction-board" target="_blank" rel="noreferrer">View Repo</a>
+              </div>
               <div class="hero-note">
                 <strong>Why this exists:</strong>
                 help a busy human decide what still looks actionable, what is getting crowded,
@@ -50,6 +55,7 @@
           </div>
           <div class="nav-chips">
             <a href="#overview">Overview</a>
+            <a href="#how-to-use">Guide</a>
             <a href="#alpha-now">Alpha Now</a>
             <a href="#playbook">Playbook</a>
             <a href="#opportunities">Opportunities</a>
@@ -69,6 +75,24 @@
               <strong>Busy trader, passive operator, curious builder.</strong>
             </div>
           </div>
+          <div class="runtime-strip">
+            <div class="runtime-card">
+              <span class="hero-meta-label">Snapshot</span>
+              <strong id="runtime-generated">Loading...</strong>
+            </div>
+            <div class="runtime-card">
+              <span class="hero-meta-label">Mode</span>
+              <strong id="runtime-mode">Loading...</strong>
+            </div>
+            <div class="runtime-card">
+              <span class="hero-meta-label">Strongest Signal</span>
+              <strong id="runtime-signal">Loading...</strong>
+            </div>
+            <div class="runtime-card runtime-card-wide">
+              <span class="hero-meta-label">Backend Reality</span>
+              <strong id="runtime-backend">Static demo now. Backend or scheduled machine only if you want live refreshes.</strong>
+            </div>
+          </div>
           <div id="summary" class="summary-grid"></div>
           <div class="utility-strip">
             <button id="copy-brief" class="tool-button" type="button">Copy Brief</button>
@@ -83,6 +107,50 @@
         <strong>Demo framing:</strong>
         this page is meant to show the kind of product you can build on top of paid Nansen CLI data,
         not to pretend the CLI itself is free or that transformed analytics remove trading risk.
+      </section>
+
+      <section id="how-to-use" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Operator Guide</p>
+            <h2>How To Use This Board In 30 Seconds</h2>
+          </div>
+          <p class="meta">The page should help a normal person act fast: look at the best setup, sanity-check the tape, then drill into the wallets only if the idea still looks alive.</p>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <p class="change-type">Step 1</p>
+            <h3>Start with the top trade, not the whole dashboard</h3>
+            <p class="change-summary">
+              Read <strong>Top Recommendations Right Now</strong> first. That is the compressed answer:
+              what still looks actionable, how late you probably are, how much money is still in, and whether traders are already crowded and green.
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">Step 2</p>
+            <h3>Check timing before you fall in love with the idea</h3>
+            <p class="change-summary">
+              Use <strong>Best Long Entries</strong> and <strong>Nansen Market Pulse</strong> together.
+              If the wallets look great but the market pulse is overheated and the late-risk is high, the board should talk you out of chasing.
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">Step 3</p>
+            <h3>Only then open the trader and wallet detail</h3>
+            <p class="change-summary">
+              Drill into the trader rows and the detail drawer to see full wallet addresses, current PnL, recent adds,
+              who is already green, who is underwater, and whether the same traders usually win on this exact symbol and side.
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">Backend Truth</p>
+            <h3>No backend is required for this public demo</h3>
+            <p class="change-summary">
+              This hosted version is just a static snapshot. That is enough for a showcase.
+              You only need a backend or scheduled machine if you want fresh Nansen CLI pulls, auth-protected data refreshes, alerts, or automatic redeploys.
+            </p>
+          </article>
+        </div>
       </section>
 
       <section id="desk-snapshot" class="panel panel-tight">
