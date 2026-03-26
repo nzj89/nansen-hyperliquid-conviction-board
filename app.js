@@ -83,6 +83,7 @@ function trendBarsHtml(values, tone = "holding") {
 function statItem(label, value, accent = false) {
   const item = document.createElement("div");
   item.className = `stat ${accent ? "stat-accent" : ""}`;
+  item.dataset.label = label.toLowerCase().replace(/\s+/g, "-");
   item.innerHTML = `<span>${label}</span><strong>${value}</strong>`;
   return item;
 }
@@ -344,9 +345,9 @@ function renderTopRecommendations(items) {
     return;
   }
 
-  for (const item of items) {
+  items.forEach((item, index) => {
     const card = document.createElement("article");
-    card.className = "watch-card clickable-card alpha-card";
+    card.className = `watch-card clickable-card alpha-card ${index === 0 ? "alpha-card-featured" : "alpha-card-secondary"}`;
     const trendTone = trendToneClass(item.trendLabel);
     const recentExitHtml = (item.recentExitedTraders || []).length
       ? `
@@ -428,7 +429,7 @@ function renderTopRecommendations(items) {
     `;
     card.addEventListener("click", () => openTradeDrawer(getTrade(item.key)));
     root.appendChild(card);
-  }
+  });
 }
 
 function renderMarketPulse(items) {
@@ -443,9 +444,9 @@ function renderMarketPulse(items) {
     return;
   }
 
-  for (const item of items) {
+  items.forEach((item, index) => {
     const card = document.createElement("article");
-    card.className = "watch-card clickable-card";
+    card.className = `watch-card clickable-card ${index === 0 ? "watch-card-cool" : ""}`;
     card.innerHTML = `
       <p class="watch-rank">${item.regimeLabel}</p>
       <h3>${item.label}</h3>
@@ -464,7 +465,7 @@ function renderMarketPulse(items) {
       openTradeDrawer(getTrade(item.key));
     });
     root.appendChild(card);
-  }
+  });
 }
 
 function openPlaybookTarget(item) {
@@ -830,9 +831,9 @@ function renderStickySetups(items) {
     return;
   }
 
-  for (const item of items) {
+  items.forEach((item, index) => {
     const card = document.createElement("article");
-    card.className = "watch-card clickable-card";
+    card.className = `watch-card clickable-card ${index === 0 ? "watch-card-warm" : ""}`;
     card.innerHTML = `
       <p class="watch-rank">Sticky ${item.rank}</p>
       <h3>${item.label}</h3>
@@ -845,7 +846,7 @@ function renderStickySetups(items) {
     `;
     card.addEventListener("click", () => openTradeDrawer(getTrade(item.key)));
     root.appendChild(card);
-  }
+  });
 }
 
 function renderOpportunities(items) {
@@ -965,9 +966,9 @@ function renderDailyPlaybook(items) {
     return;
   }
 
-  for (const item of items) {
+  items.forEach((item, index) => {
     const card = document.createElement("article");
-    card.className = "watch-card clickable-card";
+    card.className = `watch-card clickable-card ${index === 0 ? "watch-card-warm" : ""}`;
     card.innerHTML = `
       <p class="watch-rank">${item.title}</p>
       <h3>${item.label}</h3>
@@ -976,7 +977,7 @@ function renderDailyPlaybook(items) {
     `;
     card.addEventListener("click", () => openPlaybookTarget(item));
     root.appendChild(card);
-  }
+  });
 }
 
 function renderCliUsageGuide(items) {

@@ -431,6 +431,33 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
+#summary .stat {
+  position: relative;
+  min-height: 92px;
+  align-content: space-between;
+  overflow: hidden;
+}
+
+#summary .stat::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, rgba(30, 90, 67, 0.52), rgba(178, 140, 72, 0.28));
+}
+
+#summary .stat strong {
+  font-size: 1.08rem;
+}
+
+#summary .stat[data-label="mode"]::before,
+#summary .stat[data-label="filtered-traders"]::before,
+#summary .stat[data-label="strongest-signal"]::before,
+#summary .stat[data-label="top-opportunity"]::before {
+  background: linear-gradient(90deg, rgba(30, 90, 67, 0.72), rgba(17, 57, 45, 0.42));
+}
+
 .snapshot-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -462,6 +489,31 @@ h2 {
 
 .watchlist-grid > .alpha-card:first-child {
   grid-column: span 2;
+}
+
+.alpha-card-featured {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 249, 236, 0.98), rgba(232, 242, 231, 0.96)) padding-box,
+    linear-gradient(135deg, rgba(30, 90, 67, 0.34), rgba(178, 140, 72, 0.24)) border-box;
+  border: 1px solid transparent;
+}
+
+.alpha-card-featured::after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(30, 90, 67, 0.14), transparent 68%);
+  pointer-events: none;
+}
+
+.alpha-card-secondary {
+  background: linear-gradient(160deg, rgba(253, 248, 237, 0.96), rgba(241, 247, 239, 0.94));
 }
 
 .alpha-card .watch-stats {
@@ -621,6 +673,20 @@ h2 {
 
 .watch-card {
   background: linear-gradient(140deg, rgba(215, 229, 214, 0.9), rgba(255, 252, 245, 0.9));
+}
+
+.watch-card-cool {
+  background:
+    linear-gradient(180deg, rgba(246, 251, 248, 0.98), rgba(235, 245, 239, 0.96)) padding-box,
+    linear-gradient(135deg, rgba(30, 90, 67, 0.24), rgba(110, 142, 128, 0.2)) border-box;
+  border: 1px solid transparent;
+}
+
+.watch-card-warm {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.98), rgba(246, 239, 224, 0.94)) padding-box,
+    linear-gradient(135deg, rgba(178, 140, 72, 0.24), rgba(30, 90, 67, 0.16)) border-box;
+  border: 1px solid transparent;
 }
 
 .change-card {
@@ -888,9 +954,7 @@ th {
 }
 
 #summary .stat {
-  min-height: 84px;
-  align-content: space-between;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(240, 246, 238, 0.9));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(240, 246, 238, 0.92));
 }
 
 #summary .stat strong {
@@ -1031,6 +1095,10 @@ th {
 .hero-mini-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 34px rgba(21, 28, 22, 0.06);
+}
+
+.alpha-card-featured:hover {
+  box-shadow: 0 20px 42px rgba(24, 52, 35, 0.09);
 }
 
 .pill-green,
