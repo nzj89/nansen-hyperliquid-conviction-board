@@ -1,0 +1,3678 @@
+{
+  "leaderboard": [
+    {
+      "address": "0x0000000000000000000000000000000000000001",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1800000,
+      "roi": 184.2,
+      "account_value": 2200000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000002",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1736000,
+      "roi": 179.6,
+      "account_value": 2158000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000003",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1672000,
+      "roi": 175,
+      "account_value": 2116000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000004",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1608000,
+      "roi": 170.39999999999998,
+      "account_value": 2074000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000005",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1544000,
+      "roi": 165.79999999999998,
+      "account_value": 2032000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000006",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1480000,
+      "roi": 159,
+      "account_value": 1990000,
+      "recent_symbol_bias": "ETH"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000007",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1416000,
+      "roi": 154.4,
+      "account_value": 1948000,
+      "recent_symbol_bias": "ETH"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000008",
+      "label": "Smart HL Perps Trader",
+      "total_pnl": 1352000,
+      "roi": 149.8,
+      "account_value": 1906000,
+      "recent_symbol_bias": "SOL"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000009",
+      "label": "Fund",
+      "total_pnl": 1288000,
+      "roi": 145.2,
+      "account_value": 1864000,
+      "recent_symbol_bias": "SOL"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000010",
+      "label": "Fund",
+      "total_pnl": 1224000,
+      "roi": 140.6,
+      "account_value": 1822000,
+      "recent_symbol_bias": "BTC"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000011",
+      "label": "Fund",
+      "total_pnl": 1160000,
+      "roi": 138.2,
+      "account_value": 1780000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000012",
+      "label": "Fund",
+      "total_pnl": 1096000,
+      "roi": 133.6,
+      "account_value": 1738000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000013",
+      "label": "Fund",
+      "total_pnl": 1032000,
+      "roi": 126.80000000000001,
+      "account_value": 1696000,
+      "recent_symbol_bias": "ETH"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000014",
+      "label": "Fund",
+      "total_pnl": 968000,
+      "roi": 122.2,
+      "account_value": 1654000,
+      "recent_symbol_bias": "SOL"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000015",
+      "label": "Fund",
+      "total_pnl": 904000,
+      "roi": 117.60000000000001,
+      "account_value": 1612000,
+      "recent_symbol_bias": "BTC"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000016",
+      "label": "Fund",
+      "total_pnl": 840000,
+      "roi": 115.2,
+      "account_value": 1570000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000017",
+      "label": "Fund",
+      "total_pnl": 776000,
+      "roi": 110.60000000000001,
+      "account_value": 1528000,
+      "recent_symbol_bias": "HYPE"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000018",
+      "label": "Fund",
+      "total_pnl": 712000,
+      "roi": 103.80000000000001,
+      "account_value": 1486000,
+      "recent_symbol_bias": "ETH"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000019",
+      "label": "Fund",
+      "total_pnl": 648000,
+      "roi": 99.2,
+      "account_value": 1444000,
+      "recent_symbol_bias": "SOL"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000020",
+      "label": "Fund",
+      "total_pnl": 584000,
+      "roi": 94.60000000000001,
+      "account_value": 1402000,
+      "recent_symbol_bias": "BTC"
+    }
+  ],
+  "profiles": {
+    "0x0000000000000000000000000000000000000001": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.737Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 485000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 210800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -44400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 152400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 67200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 85000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -25200
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 378000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 6,
+          "leverage": 3,
+          "dca_count": 3,
+          "opened_at": "2026-03-19T21:14:00.738Z",
+          "last_added_at": "2026-03-21T21:14:00.738Z"
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 160000,
+          "unrealized_pnl_usd": 12000,
+          "entry_days_ago": 4,
+          "leverage": 2,
+          "dca_count": 1,
+          "opened_at": "2026-03-21T21:14:00.738Z",
+          "last_added_at": "2026-03-23T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000002": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 488500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 214300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -40900
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 155900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 70700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 88500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -21700
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 400000,
+          "unrealized_pnl_usd": -1500,
+          "entry_days_ago": 8,
+          "leverage": 4,
+          "dca_count": 1,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 175000,
+          "unrealized_pnl_usd": 10200,
+          "entry_days_ago": 5,
+          "leverage": 3,
+          "dca_count": 1,
+          "opened_at": "2026-03-20T21:14:00.738Z",
+          "last_added_at": "2026-03-22T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000003": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 492000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 217800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -37400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 159400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 74200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 92000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -18200
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 422000,
+          "unrealized_pnl_usd": 1000,
+          "entry_days_ago": 10,
+          "leverage": 5,
+          "dca_count": 3,
+          "opened_at": "2026-03-15T21:14:00.738Z",
+          "last_added_at": "2026-03-17T21:14:00.738Z"
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 190000,
+          "unrealized_pnl_usd": 8400,
+          "entry_days_ago": 6,
+          "leverage": 2,
+          "dca_count": 1,
+          "opened_at": "2026-03-19T21:14:00.738Z",
+          "last_added_at": "2026-03-21T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000004": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 495500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 221300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -33900
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 162900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 77700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 95500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -14700
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 444000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 12,
+          "leverage": 3,
+          "dca_count": 1,
+          "opened_at": "2026-03-13T21:14:00.738Z",
+          "last_added_at": "2026-03-15T21:14:00.738Z"
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 205000,
+          "unrealized_pnl_usd": 6600,
+          "entry_days_ago": 7,
+          "leverage": 3,
+          "dca_count": 1,
+          "opened_at": "2026-03-18T21:14:00.738Z",
+          "last_added_at": "2026-03-20T21:14:00.738Z"
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "value_usd": 321000,
+          "unrealized_pnl_usd": -20100,
+          "entry_days_ago": 8,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000005": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 499000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 224800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -30400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 166400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 81200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 99000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -11200
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 466000,
+          "unrealized_pnl_usd": 6000,
+          "entry_days_ago": 6,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-19T21:14:00.738Z",
+          "last_added_at": "2026-03-21T21:14:00.738Z"
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 220000,
+          "unrealized_pnl_usd": 4800,
+          "entry_days_ago": 8,
+          "leverage": 2,
+          "dca_count": 1,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000006": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 502500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 228300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 120960,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 201600,
+          "closed_pnl": -26900
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 169900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 84700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 102500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -7700
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 450000,
+          "unrealized_pnl_usd": 8500,
+          "entry_days_ago": 8,
+          "leverage": 5,
+          "dca_count": 1,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000007": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 506000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 231800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 120960,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 201600,
+          "closed_pnl": -23400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 173400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 88200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 106000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -4200
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 472000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 10,
+          "leverage": 3,
+          "dca_count": 3,
+          "opened_at": "2026-03-15T21:14:00.738Z",
+          "last_added_at": "2026-03-17T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000008": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 509500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 262080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 174720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 436800,
+          "closed_pnl": 235300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -19900
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 176900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 91700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 109500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": -700
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 494000,
+          "unrealized_pnl_usd": 13500,
+          "entry_days_ago": 12,
+          "leverage": 4,
+          "dca_count": 1,
+          "opened_at": "2026-03-13T21:14:00.738Z",
+          "last_added_at": "2026-03-15T21:14:00.738Z"
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "value_usd": 357000,
+          "unrealized_pnl_usd": -14900,
+          "entry_days_ago": 8,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000009": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 513000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 262080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 174720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 436800,
+          "closed_pnl": 238800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -16400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 180400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 95200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 113000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 2800
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 516000,
+          "unrealized_pnl_usd": 16000,
+          "entry_days_ago": 6,
+          "leverage": 5,
+          "dca_count": 3,
+          "opened_at": "2026-03-19T21:14:00.738Z",
+          "last_added_at": "2026-03-21T21:14:00.738Z"
+        },
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 238000,
+          "unrealized_pnl_usd": 22000,
+          "entry_days_ago": 5,
+          "leverage": 3,
+          "dca_count": 2,
+          "opened_at": "2026-03-20T21:14:00.738Z",
+          "last_added_at": "2026-03-22T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000010": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 516500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 242300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -12900
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 183900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 141120,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 235200,
+          "closed_pnl": 98700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 116500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 84000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 140000,
+          "closed_pnl": 6300
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "BTC",
+          "side": "long",
+          "value_usd": 538000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 8,
+          "leverage": 3,
+          "dca_count": 1,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000011": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 520000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 245800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -9400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 187400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 102200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 120000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 9800
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 598000,
+          "unrealized_pnl_usd": 21000,
+          "entry_days_ago": 10,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-15T21:14:00.738Z",
+          "last_added_at": "2026-03-17T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000012": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 523500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 249300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": -5900
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 190900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 105700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 123500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 13300
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 620000,
+          "unrealized_pnl_usd": 23500,
+          "entry_days_ago": 12,
+          "leverage": 5,
+          "dca_count": 1,
+          "opened_at": "2026-03-13T21:14:00.738Z",
+          "last_added_at": "2026-03-15T21:14:00.738Z"
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "value_usd": 393000,
+          "unrealized_pnl_usd": -9700,
+          "entry_days_ago": 8,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000013": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 527000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 252800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 120960,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 201600,
+          "closed_pnl": -2400
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 194400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 109200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 127000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 16800
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 604000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 6,
+          "leverage": 3,
+          "dca_count": 3,
+          "opened_at": "2026-03-19T21:14:00.738Z",
+          "last_added_at": "2026-03-21T21:14:00.738Z"
+        },
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 262000,
+          "unrealized_pnl_usd": 24000,
+          "entry_days_ago": 5,
+          "leverage": 3,
+          "dca_count": 2,
+          "opened_at": "2026-03-20T21:14:00.738Z",
+          "last_added_at": "2026-03-22T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000014": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 530500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 262080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 174720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 436800,
+          "closed_pnl": 256300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": 1100
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 197900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 112700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 130500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 20300
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 626000,
+          "unrealized_pnl_usd": 28500,
+          "entry_days_ago": 8,
+          "leverage": 4,
+          "dca_count": 1,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000015": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 534000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 259800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": 4600
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 201400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 141120,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 235200,
+          "closed_pnl": 116200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 134000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 84000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 140000,
+          "closed_pnl": 23800
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "BTC",
+          "side": "long",
+          "value_usd": 648000,
+          "unrealized_pnl_usd": 31000,
+          "entry_days_ago": 10,
+          "leverage": 5,
+          "dca_count": 3,
+          "opened_at": "2026-03-15T21:14:00.738Z",
+          "last_added_at": "2026-03-17T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000016": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 537500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 263300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": 8100
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 204900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 119700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 137500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 27300
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 708000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 12,
+          "leverage": 3,
+          "dca_count": 1,
+          "opened_at": "2026-03-13T21:14:00.738Z",
+          "last_added_at": "2026-03-15T21:14:00.738Z"
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "value_usd": 429000,
+          "unrealized_pnl_usd": -4500,
+          "entry_days_ago": 8,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000017": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 541000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 266800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": 11600
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 208400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 123200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "HYPE",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 141000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 30800
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "value_usd": 730000,
+          "unrealized_pnl_usd": 36000,
+          "entry_days_ago": 6,
+          "leverage": 4,
+          "dca_count": 3,
+          "opened_at": "2026-03-19T21:14:00.738Z",
+          "last_added_at": "2026-03-21T21:14:00.738Z"
+        },
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 286000,
+          "unrealized_pnl_usd": 26000,
+          "entry_days_ago": 5,
+          "leverage": 3,
+          "dca_count": 2,
+          "opened_at": "2026-03-20T21:14:00.738Z",
+          "last_added_at": "2026-03-22T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000018": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 544500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 270300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 120960,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 201600,
+          "closed_pnl": 15100
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 211900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 126700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 144500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 34300
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "value_usd": 714000,
+          "unrealized_pnl_usd": 38500,
+          "entry_days_ago": 8,
+          "leverage": 5,
+          "dca_count": 1,
+          "opened_at": "2026-03-17T21:14:00.738Z",
+          "last_added_at": "2026-03-19T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000019": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 548000
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 262080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 174720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 436800,
+          "closed_pnl": 273800
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": 18600
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 215400
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 126000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 210000,
+          "closed_pnl": 130200
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 148000
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 75000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 125000,
+          "closed_pnl": 37800
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "value_usd": 736000,
+          "unrealized_pnl_usd": 42000,
+          "entry_days_ago": 10,
+          "leverage": 3,
+          "dca_count": 3,
+          "opened_at": "2026-03-15T21:14:00.738Z",
+          "last_added_at": "2026-03-17T21:14:00.738Z"
+        }
+      ]
+    },
+    "0x0000000000000000000000000000000000000020": {
+      "trades": [
+        {
+          "timestamp": "2025-04-15T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 510720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-17T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 340480,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-04-20T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 127680,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-05-09T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 851200,
+          "closed_pnl": 551500
+        },
+        {
+          "timestamp": "2025-08-08T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 234000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-10T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 156000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-08-17T21:14:00.738Z",
+          "symbol": "SOL",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 390000,
+          "closed_pnl": 277300
+        },
+        {
+          "timestamp": "2025-10-30T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 108000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-11-05T21:14:00.738Z",
+          "symbol": "ETH",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 180000,
+          "closed_pnl": 22100
+        },
+        {
+          "timestamp": "2025-12-18T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 282240,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-20T21:14:00.738Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 188160,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2025-12-30T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 470400,
+          "closed_pnl": 218900
+        },
+        {
+          "timestamp": "2026-02-04T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 141120,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-02-12T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 235200,
+          "closed_pnl": 133700
+        },
+        {
+          "timestamp": "2026-02-28T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Open",
+          "value_usd": 178080,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-02T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Add",
+          "value_usd": 118720,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-07T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "long",
+          "action": "Close",
+          "value_usd": 296800,
+          "closed_pnl": 151500
+        },
+        {
+          "timestamp": "2026-03-13T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Open",
+          "value_usd": 84000,
+          "closed_pnl": 0
+        },
+        {
+          "timestamp": "2026-03-18T21:14:00.739Z",
+          "symbol": "BTC",
+          "side": "short",
+          "action": "Close",
+          "value_usd": 140000,
+          "closed_pnl": 41300
+        }
+      ],
+      "positions": [
+        {
+          "symbol": "BTC",
+          "side": "long",
+          "value_usd": 758000,
+          "unrealized_pnl_usd": 43500,
+          "entry_days_ago": 12,
+          "leverage": 4,
+          "dca_count": 1,
+          "opened_at": "2026-03-13T21:14:00.739Z",
+          "last_added_at": "2026-03-15T21:14:00.739Z"
+        }
+      ]
+    }
+  }
+}

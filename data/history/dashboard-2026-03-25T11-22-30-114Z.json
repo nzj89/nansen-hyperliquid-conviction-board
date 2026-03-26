@@ -1,0 +1,4422 @@
+{
+  "generatedAt": "2026-03-25T11:22:30.114Z",
+  "mode": "sample",
+  "summary": {
+    "topTraderCount": 20,
+    "interestingTradeCount": 5,
+    "abnormalTradeCount": 3,
+    "strongestSignal": "HYPE LONG",
+    "totalTrackedRiskUsd": 12929000,
+    "changeCount": 0,
+    "newSignalCount": 0,
+    "reinforcedCount": 0,
+    "changeWindowFrom": "2026-03-25T09:52:09.120Z",
+    "topOpportunity": "HYPE LONG",
+    "bestLong": "HYPE LONG",
+    "crowdedRiskCount": 3,
+    "suggestedRiskPct": 3.2,
+    "stalkerCount": 8
+  },
+  "filters": {
+    "symbols": [
+      "BTC",
+      "ETH",
+      "HYPE",
+      "SOL"
+    ],
+    "sides": [
+      "long",
+      "short"
+    ]
+  },
+  "topCliques": [
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000004",
+        "0x0000000000000000000000000000000000000012"
+      ],
+      "shortAddresses": [
+        "0x0000...0004",
+        "0x0000...0012"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 703000,
+      "symbols": [
+        "HYPE",
+        "BTC"
+      ],
+      "label": "0x0000...0004 + 0x0000...0012"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000004",
+        "0x0000000000000000000000000000000000000005"
+      ],
+      "shortAddresses": [
+        "0x0000...0004",
+        "0x0000...0005"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 611000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0004 + 0x0000...0005"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000003",
+        "0x0000000000000000000000000000000000000005"
+      ],
+      "shortAddresses": [
+        "0x0000...0003",
+        "0x0000...0005"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 574000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0003 + 0x0000...0005"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000003",
+        "0x0000000000000000000000000000000000000004"
+      ],
+      "shortAddresses": [
+        "0x0000...0003",
+        "0x0000...0004"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 574000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0003 + 0x0000...0004"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000005"
+      ],
+      "shortAddresses": [
+        "0x0000...0002",
+        "0x0000...0005"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 537000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0002 + 0x0000...0005"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000004"
+      ],
+      "shortAddresses": [
+        "0x0000...0002",
+        "0x0000...0004"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 537000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0002 + 0x0000...0004"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000003"
+      ],
+      "shortAddresses": [
+        "0x0000...0002",
+        "0x0000...0003"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 537000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0002 + 0x0000...0003"
+    },
+    {
+      "addresses": [
+        "0x0000000000000000000000000000000000000001",
+        "0x0000000000000000000000000000000000000005"
+      ],
+      "shortAddresses": [
+        "0x0000...0001",
+        "0x0000...0005"
+      ],
+      "sharedSignals": 2,
+      "sharedRiskUsd": 500000,
+      "symbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "label": "0x0000...0001 + 0x0000...0005"
+    }
+  ],
+  "stickySetups": [
+    {
+      "rank": 1,
+      "key": "HYPE:long",
+      "label": "HYPE LONG",
+      "persistenceScore": 1,
+      "recentAppearances": 8,
+      "signalDeltaFromLast": 2,
+      "totalMoneyAtRisk": 4424000,
+      "persistenceLabel": "sticky"
+    },
+    {
+      "rank": 2,
+      "key": "ETH:long",
+      "label": "ETH LONG",
+      "persistenceScore": 1,
+      "recentAppearances": 8,
+      "signalDeltaFromLast": -56,
+      "totalMoneyAtRisk": 3190000,
+      "persistenceLabel": "sticky"
+    },
+    {
+      "rank": 3,
+      "key": "SOL:long",
+      "label": "SOL LONG",
+      "persistenceScore": 1,
+      "recentAppearances": 8,
+      "signalDeltaFromLast": 1,
+      "totalMoneyAtRisk": 2372000,
+      "persistenceLabel": "sticky"
+    },
+    {
+      "rank": 4,
+      "key": "BTC:long",
+      "label": "BTC LONG",
+      "persistenceScore": 1,
+      "recentAppearances": 8,
+      "signalDeltaFromLast": 0,
+      "totalMoneyAtRisk": 1944000,
+      "persistenceLabel": "sticky"
+    },
+    {
+      "rank": 5,
+      "key": "BTC:short",
+      "label": "BTC SHORT",
+      "persistenceScore": 1,
+      "recentAppearances": 8,
+      "signalDeltaFromLast": 1,
+      "totalMoneyAtRisk": 999000,
+      "persistenceLabel": "sticky"
+    }
+  ],
+  "timeline": [
+    {
+      "generatedAt": "2026-03-25T09:52:09.120Z",
+      "strongestSignal": "ETH LONG",
+      "interestingTradeCount": 5,
+      "totalTrackedRiskUsd": 13855000,
+      "changeCount": 2
+    },
+    {
+      "generatedAt": "2026-03-24T23:29:01.457Z",
+      "strongestSignal": "HYPE LONG",
+      "interestingTradeCount": 5,
+      "totalTrackedRiskUsd": 14558000,
+      "changeCount": 0
+    },
+    {
+      "generatedAt": "2026-03-24T23:22:25.623Z",
+      "strongestSignal": "HYPE LONG",
+      "interestingTradeCount": 5,
+      "totalTrackedRiskUsd": 14558000,
+      "changeCount": 0
+    },
+    {
+      "generatedAt": "2026-03-24T23:00:36.340Z",
+      "strongestSignal": "HYPE LONG",
+      "interestingTradeCount": 5,
+      "totalTrackedRiskUsd": 14558000,
+      "changeCount": 0
+    },
+    {
+      "generatedAt": "2026-03-24T22:43:17.538Z",
+      "strongestSignal": "HYPE LONG",
+      "interestingTradeCount": 5,
+      "totalTrackedRiskUsd": 14558000,
+      "changeCount": 3
+    },
+    {
+      "generatedAt": "2026-03-24T22:38:26.359Z",
+      "strongestSignal": "HYPE LONG",
+      "interestingTradeCount": 5,
+      "totalTrackedRiskUsd": 12929000,
+      "changeCount": 0
+    }
+  ],
+  "watchlist": [
+    {
+      "rank": 1,
+      "key": "HYPE:long",
+      "label": "HYPE LONG",
+      "signalStrength": 228,
+      "confluenceCount": 9,
+      "totalMoneyAtRisk": 4424000,
+      "averageEntryAgeDays": 9.111111145833332,
+      "cliqueStrength": 1.3055555555555556,
+      "entryWindowLabel": "workable",
+      "reason": "9 aligned traders, workable, clique 1.3, sticky across recent refreshes"
+    },
+    {
+      "rank": 2,
+      "key": "ETH:long",
+      "label": "ETH LONG",
+      "signalStrength": 216,
+      "confluenceCount": 9,
+      "totalMoneyAtRisk": 3190000,
+      "averageEntryAgeDays": 6.888888923611109,
+      "cliqueStrength": 1.2777777777777777,
+      "entryWindowLabel": "workable",
+      "reason": "9 aligned traders, workable, clique 1.3, sticky across recent refreshes"
+    },
+    {
+      "rank": 3,
+      "key": "SOL:long",
+      "label": "SOL LONG",
+      "signalStrength": 133,
+      "confluenceCount": 4,
+      "totalMoneyAtRisk": 2372000,
+      "averageEntryAgeDays": 9.000000034722222,
+      "cliqueStrength": 1,
+      "entryWindowLabel": "workable",
+      "reason": "4 aligned traders, workable, clique 1.0, sticky across recent refreshes"
+    }
+  ],
+  "dailyPlaybook": [
+    {
+      "key": "playbook-long-HYPE:long",
+      "targetType": "trade",
+      "targetKey": "HYPE:long",
+      "title": "Best Long To Stalk",
+      "label": "HYPE LONG",
+      "summary": "Small probe only. Not first, but still in a workable part of the move.",
+      "detail": "Typical winners have around 2 days left from here. Hold window 8-12 days."
+    },
+    {
+      "key": "playbook-capital-HYPE:long",
+      "targetType": "opportunity",
+      "targetKey": "HYPE:long",
+      "title": "Best Use Of Risk Budget",
+      "label": "HYPE LONG",
+      "summary": "Small Probe Only. Starter 0.85% and max 1.87%.",
+      "detail": "Let the pullback mature, then only act if leader size stays intact on the next refresh. Recheck 2-4 hours. Check cadence: Twice Daily."
+    },
+    {
+      "key": "playbook-risk-HYPE:long",
+      "targetType": "trade",
+      "targetKey": "HYPE:long",
+      "title": "Main Thing To Avoid",
+      "label": "HYPE LONG",
+      "summary": "Overcrowded Size. Watch Closely.",
+      "detail": "9 traders | 6 green / 3 underwater | abnormal 7.70x | signal 228 | workable. Recheck 2-4 hours."
+    },
+    {
+      "key": "playbook-stalker-0x0000000000000000000000000000000000000012",
+      "targetType": "trader",
+      "targetKey": "0x0000000000000000000000000000000000000012",
+      "title": "Trader To Watch Today",
+      "label": "0x0000...0012",
+      "summary": "94 copyability. 100% large-bet win rate | 10d average hold | 2 active signals.",
+      "detail": "mixed style with HYPE, BTC in focus."
+    }
+  ],
+  "opportunities": [
+    {
+      "key": "HYPE:long",
+      "symbol": "HYPE",
+      "side": "long",
+      "label": "HYPE LONG",
+      "setupType": "Conviction Pullback",
+      "actionBias": "Watch Closely",
+      "riskTier": "Medium",
+      "score": 100,
+      "why": "9 aligned traders | quality 81 | sticky across 8 recent snapshots | 6 green / 3 underwater | workable",
+      "signalStrength": 228,
+      "qualityBlend": 81.44444444444444,
+      "cliqueStrength": 1.3055555555555556,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 35,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "tradeExplanation": "9 slower traders are aligned on HYPE LONG, with 6 green and 3 underwater. Average entry age is 9.1 days versus a typical winning hold of 11 days, so this looks workable.",
+      "averageHoldDays": 10.142857143959434,
+      "averageWinningHoldDays": 11.32804232958554,
+      "targetHoldWindow": "10-13 days",
+      "entryPlan": "Let the pullback mature, then only act if leader size stays intact on the next refresh.",
+      "invalidationHint": "Pullback turns into forced unwind: underwater traders dominate and risk shrinks fast.",
+      "nextCheckLabel": "2-4 hours",
+      "cautionFlags": [
+        "crowded",
+        "patient-traders"
+      ],
+      "leadPositionShare": 0.15641952983725135,
+      "underwaterShare": 0.3333333333333333,
+      "oneShotShare": 0.4444444444444444,
+      "dcaPerTrader": 1.5555555555555556,
+      "totalMoneyAtRisk": 4424000,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:HYPE"
+    },
+    {
+      "key": "ETH:long",
+      "symbol": "ETH",
+      "side": "long",
+      "label": "ETH LONG",
+      "setupType": "Monitor",
+      "actionBias": "Monitor",
+      "riskTier": "Medium",
+      "score": 100,
+      "why": "9 aligned traders | quality 78 | sticky across 8 recent snapshots | 9 green / 0 underwater | workable",
+      "signalStrength": 216,
+      "qualityBlend": 77.88888888888889,
+      "cliqueStrength": 1.2777777777777777,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 56,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 5 days left from here.",
+      "tradeExplanation": "9 slower traders are aligned on ETH LONG, with 9 green and 0 underwater. Average entry age is 6.9 days versus a typical winning hold of 12 days, so this looks workable.",
+      "averageHoldDays": 10.142857143959434,
+      "averageWinningHoldDays": 11.664021165564375,
+      "targetHoldWindow": "10-14 days",
+      "entryPlan": "Keep it on the board, but demand another reinforcement before acting.",
+      "invalidationHint": "Signal weakens while trader overlap stays flat.",
+      "nextCheckLabel": "Next manual refresh",
+      "cautionFlags": [
+        "crowded",
+        "patient-traders"
+      ],
+      "leadPositionShare": 0.22382445141065832,
+      "underwaterShare": 0,
+      "oneShotShare": 0.7777777777777778,
+      "dcaPerTrader": 1.2222222222222223,
+      "totalMoneyAtRisk": 3190000,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:ETH"
+    },
+    {
+      "key": "SOL:long",
+      "symbol": "SOL",
+      "side": "long",
+      "label": "SOL LONG",
+      "setupType": "Monitor",
+      "actionBias": "Monitor",
+      "riskTier": "Medium",
+      "score": 100,
+      "why": "4 aligned traders | quality 83 | sticky across 8 recent snapshots | 4 green / 0 underwater | workable",
+      "signalStrength": 133,
+      "qualityBlend": 83,
+      "cliqueStrength": 1,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 32,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "tradeExplanation": "4 slower traders are aligned on SOL LONG, with 4 green and 0 underwater. Average entry age is 9.0 days versus a typical winning hold of 11 days, so this looks workable.",
+      "averageHoldDays": 10.142857142857142,
+      "averageWinningHoldDays": 10.779761904761905,
+      "targetHoldWindow": "10-13 days",
+      "entryPlan": "Keep it on the board, but demand another reinforcement before acting.",
+      "invalidationHint": "Signal weakens while trader overlap stays flat.",
+      "nextCheckLabel": "Next manual refresh",
+      "cautionFlags": [
+        "patient-traders"
+      ],
+      "leadPositionShare": 0.3102866779089376,
+      "underwaterShare": 0,
+      "oneShotShare": 0.5,
+      "dcaPerTrader": 1.5,
+      "totalMoneyAtRisk": 2372000,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:SOL"
+    },
+    {
+      "key": "BTC:long",
+      "symbol": "BTC",
+      "side": "long",
+      "label": "BTC LONG",
+      "setupType": "Monitor",
+      "actionBias": "Monitor",
+      "riskTier": "Medium",
+      "score": 94,
+      "why": "3 aligned traders | quality 84 | sticky across 8 recent snapshots | 3 green / 0 underwater | late",
+      "signalStrength": 116,
+      "qualityBlend": 84,
+      "cliqueStrength": 1,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "late",
+      "entryWindowScore": 19,
+      "timingRead": "Late in the usual winner cycle; entries need more discipline.",
+      "durationRead": "The cluster is already beyond its typical winner hold length.",
+      "tradeExplanation": "3 slower traders are aligned on BTC LONG, with 3 green and 0 underwater. Average entry age is 10.0 days versus a typical winning hold of 10 days, so this looks late.",
+      "averageHoldDays": 10.142857142857142,
+      "averageWinningHoldDays": 10.373015873015873,
+      "targetHoldWindow": "10-12 days",
+      "entryPlan": "Keep it on the board, but demand another reinforcement before acting.",
+      "invalidationHint": "Signal weakens while trader overlap stays flat.",
+      "nextCheckLabel": "Next manual refresh",
+      "cautionFlags": [
+        "patient-traders"
+      ],
+      "leadPositionShare": 0.389917695473251,
+      "underwaterShare": 0,
+      "oneShotShare": 0.6666666666666666,
+      "dcaPerTrader": 1.3333333333333333,
+      "totalMoneyAtRisk": 1944000,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC"
+    },
+    {
+      "key": "BTC:short",
+      "symbol": "BTC",
+      "side": "short",
+      "label": "BTC SHORT",
+      "setupType": "Crowded Risk",
+      "actionBias": "Avoid Chasing",
+      "riskTier": "High",
+      "score": 80,
+      "why": "3 aligned traders | quality 83 | sticky across 8 recent snapshots | 0 green / 3 underwater | workable",
+      "signalStrength": 106,
+      "qualityBlend": 83.33333333333333,
+      "cliqueStrength": 1.3333333333333333,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 46,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 4 days left from here.",
+      "tradeExplanation": "3 slower traders are aligned on BTC SHORT, with 0 green and 3 underwater. Average entry age is 8.0 days versus a typical winning hold of 12 days, so this looks workable.",
+      "averageHoldDays": 10.142857142857142,
+      "averageWinningHoldDays": 11.611111111111112,
+      "targetHoldWindow": "10-14 days",
+      "entryPlan": "Treat this as risk management, not a fresh entry. Wait for the crowd to clean up.",
+      "invalidationHint": "More size piles in while most participants remain underwater.",
+      "nextCheckLabel": "1-2 hours",
+      "cautionFlags": [
+        "heavy-dca",
+        "many-underwater",
+        "patient-traders",
+        "scaled-in"
+      ],
+      "leadPositionShare": 0.36936936936936937,
+      "underwaterShare": 1,
+      "oneShotShare": 0,
+      "dcaPerTrader": 3,
+      "totalMoneyAtRisk": 999000,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC"
+    }
+  ],
+  "riskWarnings": [
+    {
+      "key": "HYPE:long",
+      "label": "HYPE LONG",
+      "warningType": "Overcrowded Size",
+      "severity": "high",
+      "summary": "9 traders | 6 green / 3 underwater | abnormal 7.70x | signal 228 | workable",
+      "action": "Watch Closely",
+      "nextCheckLabel": "2-4 hours",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:HYPE"
+    },
+    {
+      "key": "ETH:long",
+      "label": "ETH LONG",
+      "warningType": "Overcrowded Size",
+      "severity": "high",
+      "summary": "9 traders | 9 green / 0 underwater | abnormal 5.55x | signal 216 | workable",
+      "action": "Monitor",
+      "nextCheckLabel": "Next manual refresh",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:ETH"
+    },
+    {
+      "key": "BTC:short",
+      "label": "BTC SHORT",
+      "warningType": "Fragile Crowd",
+      "severity": "high",
+      "summary": "3 traders | 0 green / 3 underwater | abnormal 0.58x | signal 106 | workable",
+      "action": "Avoid Chasing",
+      "nextCheckLabel": "1-2 hours",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC"
+    },
+    {
+      "key": "BTC:long",
+      "label": "BTC LONG",
+      "warningType": "Aged Move",
+      "severity": "medium",
+      "summary": "3 traders | 3 green / 0 underwater | abnormal 1.13x | signal 116 | late",
+      "action": "Monitor",
+      "nextCheckLabel": "Next manual refresh",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC"
+    }
+  ],
+  "longIdeas": [
+    {
+      "key": "HYPE:long",
+      "label": "HYPE LONG",
+      "score": 100,
+      "entryWindowLabel": "workable",
+      "expectedHoldLeftDays": 2,
+      "holdWindowLabel": "8-12 days",
+      "actionLabel": "Small probe only",
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "explanation": "9 slower traders are aligned on HYPE LONG, with 6 green and 3 underwater. Average entry age is 9.1 days versus a typical winning hold of 11 days, so this looks workable.",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:HYPE"
+    },
+    {
+      "key": "ETH:long",
+      "label": "ETH LONG",
+      "score": 100,
+      "entryWindowLabel": "workable",
+      "expectedHoldLeftDays": 5,
+      "holdWindowLabel": "9-13 days",
+      "actionLabel": "Still workable",
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 5 days left from here.",
+      "explanation": "9 slower traders are aligned on ETH LONG, with 9 green and 0 underwater. Average entry age is 6.9 days versus a typical winning hold of 12 days, so this looks workable.",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:ETH"
+    },
+    {
+      "key": "SOL:long",
+      "label": "SOL LONG",
+      "score": 100,
+      "entryWindowLabel": "workable",
+      "expectedHoldLeftDays": 2,
+      "holdWindowLabel": "8-12 days",
+      "actionLabel": "Still workable",
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "explanation": "4 slower traders are aligned on SOL LONG, with 4 green and 0 underwater. Average entry age is 9.0 days versus a typical winning hold of 11 days, so this looks workable.",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:SOL"
+    },
+    {
+      "key": "BTC:long",
+      "label": "BTC LONG",
+      "score": 76,
+      "entryWindowLabel": "late",
+      "expectedHoldLeftDays": 0,
+      "holdWindowLabel": "8-11 days",
+      "actionLabel": "Too late unless refreshed",
+      "timingRead": "Late in the usual winner cycle; entries need more discipline.",
+      "durationRead": "The cluster is already beyond its typical winner hold length.",
+      "explanation": "3 slower traders are aligned on BTC LONG, with 3 green and 0 underwater. Average entry age is 10.0 days versus a typical winning hold of 10 days, so this looks late.",
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC"
+    }
+  ],
+  "capitalPlan": {
+    "totalSuggestedRiskPct": 3.2,
+    "maxSuggestedRiskPct": 6.89,
+    "topIdeas": [
+      {
+        "key": "HYPE:long",
+        "label": "HYPE LONG",
+        "attentionTier": "A",
+        "planLabel": "Small Probe Only",
+        "starterRiskPct": 0.85,
+        "maxRiskPct": 1.87,
+        "checkCadence": "Twice Daily",
+        "setupType": "Conviction Pullback",
+        "actionBias": "Watch Closely",
+        "reason": "Let the pullback mature, then only act if leader size stays intact on the next refresh. Recheck 2-4 hours.",
+        "targetHoldWindow": "10-13 days"
+      },
+      {
+        "key": "ETH:long",
+        "label": "ETH LONG",
+        "attentionTier": "B",
+        "planLabel": "Watchlist",
+        "starterRiskPct": 0.75,
+        "maxRiskPct": 1.65,
+        "checkCadence": "Daily",
+        "setupType": "Monitor",
+        "actionBias": "Monitor",
+        "reason": "Keep it on the board, but demand another reinforcement before acting. Recheck next manual refresh.",
+        "targetHoldWindow": "10-14 days"
+      },
+      {
+        "key": "SOL:long",
+        "label": "SOL LONG",
+        "attentionTier": "B",
+        "planLabel": "Watchlist",
+        "starterRiskPct": 0.75,
+        "maxRiskPct": 1.65,
+        "checkCadence": "Daily",
+        "setupType": "Monitor",
+        "actionBias": "Monitor",
+        "reason": "Keep it on the board, but demand another reinforcement before acting. Recheck next manual refresh.",
+        "targetHoldWindow": "10-13 days"
+      },
+      {
+        "key": "BTC:long",
+        "label": "BTC LONG",
+        "attentionTier": "C",
+        "planLabel": "Watchlist",
+        "starterRiskPct": 0.55,
+        "maxRiskPct": 1.21,
+        "checkCadence": "Daily",
+        "setupType": "Monitor",
+        "actionBias": "Monitor",
+        "reason": "Keep it on the board, but demand another reinforcement before acting. Recheck next manual refresh.",
+        "targetHoldWindow": "10-12 days"
+      },
+      {
+        "key": "BTC:short",
+        "label": "BTC SHORT",
+        "attentionTier": "C",
+        "planLabel": "Observe Only",
+        "starterRiskPct": 0.3,
+        "maxRiskPct": 0.51,
+        "checkCadence": "Today",
+        "setupType": "Crowded Risk",
+        "actionBias": "Avoid Chasing",
+        "reason": "Treat this as risk management, not a fresh entry. Wait for the crowd to clean up. Recheck 1-2 hours.",
+        "targetHoldWindow": "10-14 days"
+      }
+    ]
+  },
+  "traderStalkBoard": [
+    {
+      "key": "0x0000000000000000000000000000000000000012",
+      "address": "0x0000000000000000000000000000000000000012",
+      "shortAddress": "0x0000...0012",
+      "copyabilityScore": 94,
+      "focusSymbols": [
+        "HYPE",
+        "BTC"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 2 active signals",
+      "style": "mixed",
+      "qualityScore": 89,
+      "patienceScore": 95,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 2.9481842338352524,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 2
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000004",
+      "address": "0x0000000000000000000000000000000000000004",
+      "shortAddress": "0x0000...0004",
+      "copyabilityScore": 94,
+      "focusSymbols": [
+        "HYPE",
+        "ETH",
+        "BTC"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 3 active signals",
+      "style": "mixed",
+      "qualityScore": 81,
+      "patienceScore": 90,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 2.814880425155004,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 3
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000008",
+      "address": "0x0000000000000000000000000000000000000008",
+      "shortAddress": "0x0000...0008",
+      "copyabilityScore": 91,
+      "focusSymbols": [
+        "SOL",
+        "BTC"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 2 active signals",
+      "style": "mixed",
+      "qualityScore": 80,
+      "patienceScore": 90,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 2.5637732506643047,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 2
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000005",
+      "address": "0x0000000000000000000000000000000000000005",
+      "shortAddress": "0x0000...0005",
+      "copyabilityScore": 89,
+      "focusSymbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 2 active signals",
+      "style": "mixed",
+      "qualityScore": 79,
+      "patienceScore": 90,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 2.008857395925598,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 2
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000002",
+      "address": "0x0000000000000000000000000000000000000002",
+      "shortAddress": "0x0000...0002",
+      "copyabilityScore": 88,
+      "focusSymbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 2 active signals",
+      "style": "mixed",
+      "qualityScore": 78,
+      "patienceScore": 90,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 1.6647475642161205,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 2
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000003",
+      "address": "0x0000000000000000000000000000000000000003",
+      "shortAddress": "0x0000...0003",
+      "copyabilityScore": 88,
+      "focusSymbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 2 active signals",
+      "style": "mixed",
+      "qualityScore": 78,
+      "patienceScore": 90,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 1.779450841452613,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 2
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000001",
+      "address": "0x0000000000000000000000000000000000000001",
+      "shortAddress": "0x0000...0001",
+      "copyabilityScore": 88,
+      "focusSymbols": [
+        "HYPE",
+        "ETH"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 2 active signals",
+      "style": "mixed",
+      "qualityScore": 77,
+      "patienceScore": 90,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 1.550044286979628,
+      "avgHoldDays": 10.142857152777777,
+      "currentPositionCount": 2
+    },
+    {
+      "key": "0x0000000000000000000000000000000000000019",
+      "address": "0x0000000000000000000000000000000000000019",
+      "shortAddress": "0x0000...0019",
+      "copyabilityScore": 82,
+      "focusSymbols": [
+        "SOL"
+      ],
+      "stalkingReason": "100% large-bet win rate | 10d average hold | 1 active signals",
+      "style": "mixed",
+      "qualityScore": 87,
+      "patienceScore": 100,
+      "largeBetWinRate": 1,
+      "recentTopStreak": 8,
+      "currentHeat": 2.2816651904340124,
+      "avgHoldDays": 10.142857142857142,
+      "currentPositionCount": 1
+    }
+  ],
+  "traders": [
+    {
+      "rank": 12,
+      "address": "0x0000000000000000000000000000000000000012",
+      "shortAddress": "0x0000...0012",
+      "label": "Fund",
+      "totalPnl": 1096000,
+      "roi": 131.4,
+      "accountValue": 1738000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.833333333333334,
+      "averageLosingHoldDays": 6,
+      "winRateAll": 0.8571428571428571,
+      "winRate365": 0.8571428571428571,
+      "winRate180": 0.8,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 95,
+      "positionConcentration": 0.61198738170347,
+      "currentExposureUsd": 951000,
+      "currentHeat": 2.9481842338352524,
+      "qualityScore": 89,
+      "currentPositionCount": 2,
+      "noticeablePositionCount": 2,
+      "noticeableExposureUsd": 951000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 582000,
+          "unrealizedPnlUsd": 16500,
+          "leverage": 5,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "valueUsd": 369000,
+          "unrealizedPnlUsd": -9700,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 3
+        }
+      ],
+      "convictionScore": 81,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 582000,
+          "pnlState": "profit"
+        },
+        {
+          "key": "BTC:short",
+          "symbol": "BTC",
+          "side": "short",
+          "signalStrength": 106,
+          "positionValueUsd": 369000,
+          "pnlState": "underwater"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 703000,
+          "symbols": [
+            "HYPE",
+            "BTC"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 582000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000016",
+          "peerShortAddress": "0x0000...0016",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 582000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000011",
+          "peerShortAddress": "0x0000...0011",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 560000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 428000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 89
+    },
+    {
+      "rank": 19,
+      "address": "0x0000000000000000000000000000000000000019",
+      "shortAddress": "0x0000...0019",
+      "label": "Fund",
+      "totalPnl": 648000,
+      "roi": 99.2,
+      "accountValue": 1444000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 736000,
+      "currentHeat": 2.2816651904340124,
+      "qualityScore": 87,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 736000,
+      "currentPositions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "valueUsd": 736000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "SOL:long",
+          "symbol": "SOL",
+          "side": "long",
+          "signalStrength": 133,
+          "positionValueUsd": 736000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000014",
+          "peerShortAddress": "0x0000...0014",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 626000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000009",
+          "peerShortAddress": "0x0000...0009",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 516000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000008",
+          "peerShortAddress": "0x0000...0008",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 494000,
+          "symbols": [
+            "SOL"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 86.375
+    },
+    {
+      "rank": 20,
+      "address": "0x0000000000000000000000000000000000000020",
+      "shortAddress": "0x0000...0020",
+      "label": "Fund",
+      "totalPnl": 584000,
+      "roi": 94.60000000000001,
+      "accountValue": 1402000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 758000,
+      "currentHeat": 2.349867139061116,
+      "qualityScore": 87,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 758000,
+      "currentPositions": [
+        {
+          "symbol": "BTC",
+          "side": "long",
+          "valueUsd": 758000,
+          "unrealizedPnlUsd": 36500,
+          "leverage": 4,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "BTC:long",
+          "symbol": "BTC",
+          "side": "long",
+          "signalStrength": 116,
+          "positionValueUsd": 758000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000015",
+          "peerShortAddress": "0x0000...0015",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 648000,
+          "symbols": [
+            "BTC"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000010",
+          "peerShortAddress": "0x0000...0010",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 538000,
+          "symbols": [
+            "BTC"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 86.375
+    },
+    {
+      "rank": 14,
+      "address": "0x0000000000000000000000000000000000000014",
+      "shortAddress": "0x0000...0014",
+      "label": "Fund",
+      "totalPnl": 968000,
+      "roi": 122.2,
+      "accountValue": 1654000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 626000,
+      "currentHeat": 1.9406554472984943,
+      "qualityScore": 86,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 626000,
+      "currentPositions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "valueUsd": 626000,
+          "unrealizedPnlUsd": 21500,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "SOL:long",
+          "symbol": "SOL",
+          "side": "long",
+          "signalStrength": 133,
+          "positionValueUsd": 626000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000019",
+          "peerShortAddress": "0x0000...0019",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 626000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000009",
+          "peerShortAddress": "0x0000...0009",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 516000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000008",
+          "peerShortAddress": "0x0000...0008",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 494000,
+          "symbols": [
+            "SOL"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 85.375
+    },
+    {
+      "rank": 15,
+      "address": "0x0000000000000000000000000000000000000015",
+      "shortAddress": "0x0000...0015",
+      "label": "Fund",
+      "totalPnl": 904000,
+      "roi": 117.60000000000001,
+      "accountValue": 1612000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 648000,
+      "currentHeat": 2.008857395925598,
+      "qualityScore": 86,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 648000,
+      "currentPositions": [
+        {
+          "symbol": "BTC",
+          "side": "long",
+          "valueUsd": 648000,
+          "unrealizedPnlUsd": 24000,
+          "leverage": 5,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "BTC:long",
+          "symbol": "BTC",
+          "side": "long",
+          "signalStrength": 116,
+          "positionValueUsd": 648000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000020",
+          "peerShortAddress": "0x0000...0020",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 648000,
+          "symbols": [
+            "BTC"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000010",
+          "peerShortAddress": "0x0000...0010",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 538000,
+          "symbols": [
+            "BTC"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 85.375
+    },
+    {
+      "rank": 16,
+      "address": "0x0000000000000000000000000000000000000016",
+      "shortAddress": "0x0000...0016",
+      "label": "Fund",
+      "totalPnl": 840000,
+      "roi": 113,
+      "accountValue": 1570000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 670000,
+      "currentHeat": 2.0770593445527012,
+      "qualityScore": 86,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 670000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 670000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 670000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 670000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000012",
+          "peerShortAddress": "0x0000...0012",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 582000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000011",
+          "peerShortAddress": "0x0000...0011",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 560000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 428000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 406000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 92.25
+    },
+    {
+      "rank": 17,
+      "address": "0x0000000000000000000000000000000000000017",
+      "shortAddress": "0x0000...0017",
+      "label": "Fund",
+      "totalPnl": 776000,
+      "roi": 108.4,
+      "accountValue": 1528000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 692000,
+      "currentHeat": 2.145261293179805,
+      "qualityScore": 86,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 692000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 692000,
+          "unrealizedPnlUsd": 29000,
+          "leverage": 4,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 692000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000016",
+          "peerShortAddress": "0x0000...0016",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 670000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000012",
+          "peerShortAddress": "0x0000...0012",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 582000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000011",
+          "peerShortAddress": "0x0000...0011",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 560000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 428000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 406000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 91.625
+    },
+    {
+      "rank": 18,
+      "address": "0x0000000000000000000000000000000000000018",
+      "shortAddress": "0x0000...0018",
+      "label": "Fund",
+      "totalPnl": 712000,
+      "roi": 103.80000000000001,
+      "accountValue": 1486000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.142857142857142,
+      "averageLosingHoldDays": 0,
+      "winRateAll": 1,
+      "winRate365": 1,
+      "winRate180": 1,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 100,
+      "positionConcentration": 1,
+      "currentExposureUsd": 714000,
+      "currentHeat": 2.2134632418069087,
+      "qualityScore": 86,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 714000,
+      "currentPositions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 714000,
+          "unrealizedPnlUsd": 31500,
+          "leverage": 5,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 86,
+      "activeSignals": [
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 714000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000013",
+          "peerShortAddress": "0x0000...0013",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 604000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000007",
+          "peerShortAddress": "0x0000...0007",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 472000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000006",
+          "peerShortAddress": "0x0000...0006",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 450000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 220000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 205000,
+          "symbols": [
+            "ETH"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 86
+    },
+    {
+      "rank": 4,
+      "address": "0x0000000000000000000000000000000000000004",
+      "shortAddress": "0x0000...0004",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1608000,
+      "roi": 168.2,
+      "accountValue": 2074000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 0.44713656387665196,
+      "currentExposureUsd": 908000,
+      "currentHeat": 2.814880425155004,
+      "qualityScore": 81,
+      "currentPositionCount": 3,
+      "noticeablePositionCount": 3,
+      "noticeableExposureUsd": 908000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 406000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 205000,
+          "unrealizedPnlUsd": 6600,
+          "leverage": 3,
+          "openedAt": "2026-03-18T11:22:30.108Z",
+          "lastAddedAt": "2026-03-20T11:22:30.108Z",
+          "dcaCount": 1
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "valueUsd": 297000,
+          "unrealizedPnlUsd": -20100,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 3
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 406000,
+          "pnlState": "profit"
+        },
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 205000,
+          "pnlState": "profit"
+        },
+        {
+          "key": "BTC:short",
+          "symbol": "BTC",
+          "side": "short",
+          "signalStrength": 106,
+          "positionValueUsd": 297000,
+          "pnlState": "underwater"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000012",
+          "peerShortAddress": "0x0000...0012",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 703000,
+          "symbols": [
+            "HYPE",
+            "BTC"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 611000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000003",
+          "peerShortAddress": "0x0000...0003",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 574000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000002",
+          "peerShortAddress": "0x0000...0002",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 537000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000001",
+          "peerShortAddress": "0x0000...0001",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 81
+    },
+    {
+      "rank": 8,
+      "address": "0x0000000000000000000000000000000000000008",
+      "shortAddress": "0x0000...0008",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1352000,
+      "roi": 149.8,
+      "accountValue": 1906000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 0.5973397823458283,
+      "currentExposureUsd": 827000,
+      "currentHeat": 2.5637732506643047,
+      "qualityScore": 80,
+      "currentPositionCount": 2,
+      "noticeablePositionCount": 2,
+      "noticeableExposureUsd": 827000,
+      "currentPositions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "valueUsd": 494000,
+          "unrealizedPnlUsd": 6500,
+          "leverage": 4,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1
+        },
+        {
+          "symbol": "BTC",
+          "side": "short",
+          "valueUsd": 333000,
+          "unrealizedPnlUsd": -14900,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 3
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "SOL:long",
+          "symbol": "SOL",
+          "side": "long",
+          "signalStrength": 133,
+          "positionValueUsd": 494000,
+          "pnlState": "profit"
+        },
+        {
+          "key": "BTC:short",
+          "symbol": "BTC",
+          "side": "short",
+          "signalStrength": 106,
+          "positionValueUsd": 333000,
+          "pnlState": "underwater"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000019",
+          "peerShortAddress": "0x0000...0019",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 494000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000014",
+          "peerShortAddress": "0x0000...0014",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 494000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000009",
+          "peerShortAddress": "0x0000...0009",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 494000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000012",
+          "peerShortAddress": "0x0000...0012",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 333000,
+          "symbols": [
+            "BTC"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 297000,
+          "symbols": [
+            "BTC"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 80.375
+    },
+    {
+      "rank": 13,
+      "address": "0x0000000000000000000000000000000000000013",
+      "shortAddress": "0x0000...0013",
+      "label": "Fund",
+      "totalPnl": 1032000,
+      "roi": 126.80000000000001,
+      "accountValue": 1696000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.833333333333334,
+      "averageLosingHoldDays": 6,
+      "winRateAll": 0.8571428571428571,
+      "winRate365": 0.8571428571428571,
+      "winRate180": 0.8,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 95,
+      "positionConcentration": 1,
+      "currentExposureUsd": 604000,
+      "currentHeat": 1.8724534986713905,
+      "qualityScore": 80,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 604000,
+      "currentPositions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 604000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 81,
+      "activeSignals": [
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 604000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000018",
+          "peerShortAddress": "0x0000...0018",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 604000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000007",
+          "peerShortAddress": "0x0000...0007",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 472000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000006",
+          "peerShortAddress": "0x0000...0006",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 450000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 220000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 205000,
+          "symbols": [
+            "ETH"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 85
+    },
+    {
+      "rank": 5,
+      "address": "0x0000000000000000000000000000000000000005",
+      "shortAddress": "0x0000...0005",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1544000,
+      "roi": 163.6,
+      "accountValue": 2032000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 0.6604938271604939,
+      "currentExposureUsd": 648000,
+      "currentHeat": 2.008857395925598,
+      "qualityScore": 79,
+      "currentPositionCount": 2,
+      "noticeablePositionCount": 2,
+      "noticeableExposureUsd": 648000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 428000,
+          "unrealizedPnlUsd": -1000,
+          "leverage": 4,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 220000,
+          "unrealizedPnlUsd": 4800,
+          "leverage": 2,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 428000,
+          "pnlState": "underwater"
+        },
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 220000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 611000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000003",
+          "peerShortAddress": "0x0000...0003",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 574000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000002",
+          "peerShortAddress": "0x0000...0002",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 537000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000001",
+          "peerShortAddress": "0x0000...0001",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 428000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 79
+    },
+    {
+      "rank": 9,
+      "address": "0x0000000000000000000000000000000000000009",
+      "shortAddress": "0x0000...0009",
+      "label": "Fund",
+      "totalPnl": 1288000,
+      "roi": 145.2,
+      "accountValue": 1864000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.833333333333334,
+      "averageLosingHoldDays": 6,
+      "winRateAll": 0.8571428571428571,
+      "winRate365": 0.8571428571428571,
+      "winRate180": 0.8,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 95,
+      "positionConcentration": 1,
+      "currentExposureUsd": 516000,
+      "currentHeat": 1.5996457041629761,
+      "qualityScore": 79,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 516000,
+      "currentPositions": [
+        {
+          "symbol": "SOL",
+          "side": "long",
+          "valueUsd": 516000,
+          "unrealizedPnlUsd": 9000,
+          "leverage": 5,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 81,
+      "activeSignals": [
+        {
+          "key": "SOL:long",
+          "symbol": "SOL",
+          "side": "long",
+          "signalStrength": 133,
+          "positionValueUsd": 516000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000019",
+          "peerShortAddress": "0x0000...0019",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 516000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000014",
+          "peerShortAddress": "0x0000...0014",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 516000,
+          "symbols": [
+            "SOL"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000008",
+          "peerShortAddress": "0x0000...0008",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 494000,
+          "symbols": [
+            "SOL"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 84
+    },
+    {
+      "rank": 10,
+      "address": "0x0000000000000000000000000000000000000010",
+      "shortAddress": "0x0000...0010",
+      "label": "Fund",
+      "totalPnl": 1224000,
+      "roi": 140.6,
+      "accountValue": 1822000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.833333333333334,
+      "averageLosingHoldDays": 6,
+      "winRateAll": 0.8571428571428571,
+      "winRate365": 0.8571428571428571,
+      "winRate180": 0.8,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 95,
+      "positionConcentration": 1,
+      "currentExposureUsd": 538000,
+      "currentHeat": 1.6678476527900796,
+      "qualityScore": 79,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 538000,
+      "currentPositions": [
+        {
+          "symbol": "BTC",
+          "side": "long",
+          "valueUsd": 538000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 81,
+      "activeSignals": [
+        {
+          "key": "BTC:long",
+          "symbol": "BTC",
+          "side": "long",
+          "signalStrength": 116,
+          "positionValueUsd": 538000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000020",
+          "peerShortAddress": "0x0000...0020",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 538000,
+          "symbols": [
+            "BTC"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000015",
+          "peerShortAddress": "0x0000...0015",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 538000,
+          "symbols": [
+            "BTC"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 79
+    },
+    {
+      "rank": 11,
+      "address": "0x0000000000000000000000000000000000000011",
+      "shortAddress": "0x0000...0011",
+      "label": "Fund",
+      "totalPnl": 1160000,
+      "roi": 136,
+      "accountValue": 1780000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 10.833333333333334,
+      "averageLosingHoldDays": 6,
+      "winRateAll": 0.8571428571428571,
+      "winRate365": 0.8571428571428571,
+      "winRate180": 0.8,
+      "winRate90": 1,
+      "winRate30": 1,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 95,
+      "positionConcentration": 1,
+      "currentExposureUsd": 560000,
+      "currentHeat": 1.7360496014171833,
+      "qualityScore": 79,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 560000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 560000,
+          "unrealizedPnlUsd": 14000,
+          "leverage": 4,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 81,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 560000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 560000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000016",
+          "peerShortAddress": "0x0000...0016",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 560000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000012",
+          "peerShortAddress": "0x0000...0012",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 560000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 428000,
+          "symbols": [
+            "HYPE"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 406000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 79
+    },
+    {
+      "rank": 2,
+      "address": "0x0000000000000000000000000000000000000002",
+      "shortAddress": "0x0000...0002",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1736000,
+      "roi": 177.4,
+      "accountValue": 2158000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 0.6741154562383612,
+      "currentExposureUsd": 537000,
+      "currentHeat": 1.6647475642161205,
+      "qualityScore": 78,
+      "currentPositionCount": 2,
+      "noticeablePositionCount": 2,
+      "noticeableExposureUsd": 537000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 362000,
+          "unrealizedPnlUsd": -8500,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 175000,
+          "unrealizedPnlUsd": 10200,
+          "leverage": 3,
+          "openedAt": "2026-03-20T11:22:30.108Z",
+          "lastAddedAt": "2026-03-22T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 362000,
+          "pnlState": "underwater"
+        },
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 175000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 537000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 537000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000003",
+          "peerShortAddress": "0x0000...0003",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 537000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000001",
+          "peerShortAddress": "0x0000...0001",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 362000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 78
+    },
+    {
+      "rank": 3,
+      "address": "0x0000000000000000000000000000000000000003",
+      "shortAddress": "0x0000...0003",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1672000,
+      "roi": 172.8,
+      "accountValue": 2116000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 0.6689895470383276,
+      "currentExposureUsd": 574000,
+      "currentHeat": 1.779450841452613,
+      "qualityScore": 78,
+      "currentPositionCount": 2,
+      "noticeablePositionCount": 2,
+      "noticeableExposureUsd": 574000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 384000,
+          "unrealizedPnlUsd": -6000,
+          "leverage": 5,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 190000,
+          "unrealizedPnlUsd": 8400,
+          "leverage": 2,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 384000,
+          "pnlState": "underwater"
+        },
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 190000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 574000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 574000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000002",
+          "peerShortAddress": "0x0000...0002",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 537000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000001",
+          "peerShortAddress": "0x0000...0001",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 384000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 78
+    },
+    {
+      "rank": 1,
+      "address": "0x0000000000000000000000000000000000000001",
+      "shortAddress": "0x0000...0001",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1800000,
+      "roi": 182,
+      "accountValue": 2200000,
+      "avgHoldDays": 10.142857152777777,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12.000000013888888,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 0.68,
+      "currentExposureUsd": 500000,
+      "currentHeat": 1.550044286979628,
+      "qualityScore": 77,
+      "currentPositionCount": 2,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 340000,
+      "currentPositions": [
+        {
+          "symbol": "HYPE",
+          "side": "long",
+          "valueUsd": 340000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2
+        },
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 160000,
+          "unrealizedPnlUsd": 12000,
+          "leverage": 2,
+          "openedAt": "2026-03-21T11:22:30.108Z",
+          "lastAddedAt": "2026-03-23T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "HYPE:long",
+          "symbol": "HYPE",
+          "side": "long",
+          "signalStrength": 228,
+          "positionValueUsd": 340000,
+          "pnlState": "profit"
+        },
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 160000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000003",
+          "peerShortAddress": "0x0000...0003",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000002",
+          "peerShortAddress": "0x0000...0002",
+          "sharedSignals": 2,
+          "sharedRiskUsd": 500000,
+          "symbols": [
+            "HYPE",
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000017",
+          "peerShortAddress": "0x0000...0017",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 340000,
+          "symbols": [
+            "HYPE"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 77.125
+    },
+    {
+      "rank": 6,
+      "address": "0x0000000000000000000000000000000000000006",
+      "shortAddress": "0x0000...0006",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1480000,
+      "roi": 159,
+      "accountValue": 1990000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 1,
+      "currentExposureUsd": 450000,
+      "currentHeat": 1.3950398582816652,
+      "qualityScore": 71,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 450000,
+      "currentPositions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 450000,
+          "unrealizedPnlUsd": 1500,
+          "leverage": 5,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 450000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000018",
+          "peerShortAddress": "0x0000...0018",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 450000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000013",
+          "peerShortAddress": "0x0000...0013",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 450000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000007",
+          "peerShortAddress": "0x0000...0007",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 450000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 220000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 205000,
+          "symbols": [
+            "ETH"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 71.375
+    },
+    {
+      "rank": 7,
+      "address": "0x0000000000000000000000000000000000000007",
+      "shortAddress": "0x0000...0007",
+      "label": "Smart HL Perps Trader",
+      "totalPnl": 1416000,
+      "roi": 154.4,
+      "accountValue": 1948000,
+      "avgHoldDays": 10.142857142857142,
+      "medianHoldDays": 8,
+      "averageWinningHoldDays": 12,
+      "averageLosingHoldDays": 5.5,
+      "winRateAll": 0.7142857142857143,
+      "winRate365": 0.7142857142857143,
+      "winRate180": 0.6,
+      "winRate90": 0.75,
+      "winRate30": 0.5,
+      "largeBetWinRate": 1,
+      "oneShotShare": 0.42857142857142855,
+      "style": "mixed",
+      "patienceScore": 90,
+      "positionConcentration": 1,
+      "currentExposureUsd": 472000,
+      "currentHeat": 1.4632418069087687,
+      "qualityScore": 71,
+      "currentPositionCount": 1,
+      "noticeablePositionCount": 1,
+      "noticeableExposureUsd": 472000,
+      "currentPositions": [
+        {
+          "symbol": "ETH",
+          "side": "long",
+          "valueUsd": 472000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2
+        }
+      ],
+      "convictionScore": 71,
+      "activeSignals": [
+        {
+          "key": "ETH:long",
+          "symbol": "ETH",
+          "side": "long",
+          "signalStrength": 216,
+          "positionValueUsd": 472000,
+          "pnlState": "profit"
+        }
+      ],
+      "overlapPeers": [
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000018",
+          "peerShortAddress": "0x0000...0018",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 472000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000013",
+          "peerShortAddress": "0x0000...0013",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 472000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000006",
+          "peerShortAddress": "0x0000...0006",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 450000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000005",
+          "peerShortAddress": "0x0000...0005",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 220000,
+          "symbols": [
+            "ETH"
+          ]
+        },
+        {
+          "peerAddress": "0x0000000000000000000000000000000000000004",
+          "peerShortAddress": "0x0000...0004",
+          "sharedSignals": 1,
+          "sharedRiskUsd": 205000,
+          "symbols": [
+            "ETH"
+          ]
+        }
+      ],
+      "recentTopCount": 8,
+      "recentTopStreak": 8,
+      "averageRecentQuality": 72.125
+    }
+  ],
+  "interestingTrades": [
+    {
+      "key": "HYPE:long",
+      "symbol": "HYPE",
+      "side": "long",
+      "confluenceCount": 9,
+      "totalMoneyAtRisk": 4424000,
+      "convictionScore": 76.55555555555556,
+      "qualityBlend": 81.44444444444444,
+      "abnormalScore": 7.698971304818625,
+      "signalStrength": 228,
+      "averageEntryAgeDays": 9.111111145833332,
+      "averageWinningHoldDays": 11.328042329585537,
+      "averageTraderHoldDays": 10.142857143959434,
+      "estimatedDaysRemaining": 2.216931183752205,
+      "holdAlignmentScore": 93,
+      "timingRatio": 0.8042970604053775,
+      "clusterTone": "reinforced",
+      "openSince": "2026-03-13T11:22:30.108Z",
+      "lastAddAt": "2026-03-21T11:22:30.108Z",
+      "inProfitCount": 6,
+      "underwaterCount": 3,
+      "totalDcaCount": 14,
+      "oneShotCount": 4,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:HYPE",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000017",
+          "shortAddress": "0x0000...0017",
+          "traderRank": 17,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 692000,
+          "unrealizedPnlUsd": 29000,
+          "leverage": 4,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000016",
+          "shortAddress": "0x0000...0016",
+          "traderRank": 16,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 670000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000012",
+          "shortAddress": "0x0000...0012",
+          "traderRank": 12,
+          "traderConviction": 81,
+          "traderQuality": 89,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 582000,
+          "unrealizedPnlUsd": 16500,
+          "leverage": 5,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000011",
+          "shortAddress": "0x0000...0011",
+          "traderRank": 11,
+          "traderConviction": 81,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 560000,
+          "unrealizedPnlUsd": 14000,
+          "leverage": 4,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000005",
+          "shortAddress": "0x0000...0005",
+          "traderRank": 5,
+          "traderConviction": 71,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 428000,
+          "unrealizedPnlUsd": -1000,
+          "leverage": 4,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000004",
+          "shortAddress": "0x0000...0004",
+          "traderRank": 4,
+          "traderConviction": 71,
+          "traderQuality": 81,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 406000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000003",
+          "shortAddress": "0x0000...0003",
+          "traderRank": 3,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 384000,
+          "unrealizedPnlUsd": -6000,
+          "leverage": 5,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000002",
+          "shortAddress": "0x0000...0002",
+          "traderRank": 2,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 362000,
+          "unrealizedPnlUsd": -8500,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "underwater",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000001",
+          "shortAddress": "0x0000...0001",
+          "traderRank": 1,
+          "traderConviction": 71,
+          "traderQuality": 77,
+          "traderAvgHoldDays": 10.142857152777777,
+          "traderAverageWinningHoldDays": 12.000000013888888,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 340000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        }
+      ],
+      "cliqueStrength": 1.3055555555555556,
+      "leadTrader": "0x0000...0017",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000017",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 35,
+      "holdWindowLabel": "8-12 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "tradeExplanation": "9 slower traders are aligned on HYPE LONG, with 6 green and 3 underwater. Average entry age is 9.1 days versus a typical winning hold of 11 days, so this looks workable.",
+      "signalDeltaFromLast": 2,
+      "riskDeltaFromLast": 0,
+      "recentSignalAverage": 227.125
+    },
+    {
+      "key": "ETH:long",
+      "symbol": "ETH",
+      "side": "long",
+      "confluenceCount": 9,
+      "totalMoneyAtRisk": 3190000,
+      "convictionScore": 73.77777777777777,
+      "qualityBlend": 77.88888888888889,
+      "abnormalScore": 5.55147343181994,
+      "signalStrength": 216,
+      "averageEntryAgeDays": 6.888888923611109,
+      "averageWinningHoldDays": 11.664021165564375,
+      "averageTraderHoldDays": 10.142857143959434,
+      "estimatedDaysRemaining": 4.775132241953266,
+      "holdAlignmentScore": 94,
+      "timingRatio": 0.5906101185712126,
+      "clusterTone": "reinforced",
+      "openSince": "2026-03-15T11:22:30.108Z",
+      "lastAddAt": "2026-03-23T11:22:30.108Z",
+      "inProfitCount": 9,
+      "underwaterCount": 0,
+      "totalDcaCount": 11,
+      "oneShotCount": 7,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:ETH",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000018",
+          "shortAddress": "0x0000...0018",
+          "traderRank": 18,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 714000,
+          "unrealizedPnlUsd": 31500,
+          "leverage": 5,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000013",
+          "shortAddress": "0x0000...0013",
+          "traderRank": 13,
+          "traderConviction": 81,
+          "traderQuality": 80,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 604000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000007",
+          "shortAddress": "0x0000...0007",
+          "traderRank": 7,
+          "traderConviction": 71,
+          "traderQuality": 71,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 472000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000006",
+          "shortAddress": "0x0000...0006",
+          "traderRank": 6,
+          "traderConviction": 71,
+          "traderQuality": 71,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 450000,
+          "unrealizedPnlUsd": 1500,
+          "leverage": 5,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000005",
+          "shortAddress": "0x0000...0005",
+          "traderRank": 5,
+          "traderConviction": 71,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 220000,
+          "unrealizedPnlUsd": 4800,
+          "leverage": 2,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000004",
+          "shortAddress": "0x0000...0004",
+          "traderRank": 4,
+          "traderConviction": 71,
+          "traderQuality": 81,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 205000,
+          "unrealizedPnlUsd": 6600,
+          "leverage": 3,
+          "openedAt": "2026-03-18T11:22:30.108Z",
+          "lastAddedAt": "2026-03-20T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 7.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000003",
+          "shortAddress": "0x0000...0003",
+          "traderRank": 3,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 190000,
+          "unrealizedPnlUsd": 8400,
+          "leverage": 2,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000002",
+          "shortAddress": "0x0000...0002",
+          "traderRank": 2,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 175000,
+          "unrealizedPnlUsd": 10200,
+          "leverage": 3,
+          "openedAt": "2026-03-20T11:22:30.108Z",
+          "lastAddedAt": "2026-03-22T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 5.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000001",
+          "shortAddress": "0x0000...0001",
+          "traderRank": 1,
+          "traderConviction": 71,
+          "traderQuality": 77,
+          "traderAvgHoldDays": 10.142857152777777,
+          "traderAverageWinningHoldDays": 12.000000013888888,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 160000,
+          "unrealizedPnlUsd": 12000,
+          "leverage": 2,
+          "openedAt": "2026-03-21T11:22:30.108Z",
+          "lastAddedAt": "2026-03-23T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 4.000000034722222
+        }
+      ],
+      "cliqueStrength": 1.2777777777777777,
+      "leadTrader": "0x0000...0018",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000018",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 56,
+      "holdWindowLabel": "9-13 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 5 days left from here.",
+      "tradeExplanation": "9 slower traders are aligned on ETH LONG, with 9 green and 0 underwater. Average entry age is 6.9 days versus a typical winning hold of 12 days, so this looks workable.",
+      "signalDeltaFromLast": -56,
+      "riskDeltaFromLast": -926000,
+      "recentSignalAverage": 221.75
+    },
+    {
+      "key": "SOL:long",
+      "symbol": "SOL",
+      "side": "long",
+      "confluenceCount": 4,
+      "totalMoneyAtRisk": 2372000,
+      "convictionScore": 81,
+      "qualityBlend": 83,
+      "abnormalScore": 1.834635315956377,
+      "signalStrength": 133,
+      "averageEntryAgeDays": 9.000000034722222,
+      "averageWinningHoldDays": 10.779761904761905,
+      "averageTraderHoldDays": 10.142857142857142,
+      "estimatedDaysRemaining": 1.7797618700396836,
+      "holdAlignmentScore": 93,
+      "timingRatio": 0.8348978497147064,
+      "clusterTone": "steady",
+      "openSince": "2026-03-13T11:22:30.108Z",
+      "lastAddAt": "2026-03-21T11:22:30.108Z",
+      "inProfitCount": 4,
+      "underwaterCount": 0,
+      "totalDcaCount": 6,
+      "oneShotCount": 2,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:SOL",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000019",
+          "shortAddress": "0x0000...0019",
+          "traderRank": 19,
+          "traderConviction": 86,
+          "traderQuality": 87,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 736000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000014",
+          "shortAddress": "0x0000...0014",
+          "traderRank": 14,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 626000,
+          "unrealizedPnlUsd": 21500,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000009",
+          "shortAddress": "0x0000...0009",
+          "traderRank": 9,
+          "traderConviction": 81,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 516000,
+          "unrealizedPnlUsd": 9000,
+          "leverage": 5,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000008",
+          "shortAddress": "0x0000...0008",
+          "traderRank": 8,
+          "traderConviction": 71,
+          "traderQuality": 80,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 494000,
+          "unrealizedPnlUsd": 6500,
+          "leverage": 4,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        }
+      ],
+      "cliqueStrength": 1,
+      "leadTrader": "0x0000...0019",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000019",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 32,
+      "holdWindowLabel": "8-12 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "tradeExplanation": "4 slower traders are aligned on SOL LONG, with 4 green and 0 underwater. Average entry age is 9.0 days versus a typical winning hold of 11 days, so this looks workable.",
+      "signalDeltaFromLast": 1,
+      "riskDeltaFromLast": 0,
+      "recentSignalAverage": 165.375
+    },
+    {
+      "key": "BTC:long",
+      "symbol": "BTC",
+      "side": "long",
+      "confluenceCount": 3,
+      "totalMoneyAtRisk": 1944000,
+      "convictionScore": 84.33333333333333,
+      "qualityBlend": 84,
+      "abnormalScore": 1.1276974243947715,
+      "signalStrength": 116,
+      "averageEntryAgeDays": 10.000000034722222,
+      "averageWinningHoldDays": 10.373015873015873,
+      "averageTraderHoldDays": 10.142857142857142,
+      "estimatedDaysRemaining": 0.3730158382936519,
+      "holdAlignmentScore": 97,
+      "timingRatio": 0.9640397891162967,
+      "clusterTone": "steady",
+      "openSince": "2026-03-13T11:22:30.108Z",
+      "lastAddAt": "2026-03-19T11:22:30.108Z",
+      "inProfitCount": 3,
+      "underwaterCount": 0,
+      "totalDcaCount": 4,
+      "oneShotCount": 2,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000020",
+          "shortAddress": "0x0000...0020",
+          "traderRank": 20,
+          "traderConviction": 86,
+          "traderQuality": 87,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "BTC",
+          "side": "long",
+          "positionValueUsd": 758000,
+          "unrealizedPnlUsd": 36500,
+          "leverage": 4,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000015",
+          "shortAddress": "0x0000...0015",
+          "traderRank": 15,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "BTC",
+          "side": "long",
+          "positionValueUsd": 648000,
+          "unrealizedPnlUsd": 24000,
+          "leverage": 5,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000010",
+          "shortAddress": "0x0000...0010",
+          "traderRank": 10,
+          "traderConviction": 81,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "BTC",
+          "side": "long",
+          "positionValueUsd": 538000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        }
+      ],
+      "cliqueStrength": 1,
+      "leadTrader": "0x0000...0020",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000020",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "late",
+      "entryWindowScore": 19,
+      "holdWindowLabel": "8-11 days",
+      "lateToTrade": true,
+      "timingRead": "Late in the usual winner cycle; entries need more discipline.",
+      "durationRead": "The cluster is already beyond its typical winner hold length.",
+      "tradeExplanation": "3 slower traders are aligned on BTC LONG, with 3 green and 0 underwater. Average entry age is 10.0 days versus a typical winning hold of 10 days, so this looks late.",
+      "signalDeltaFromLast": 0,
+      "riskDeltaFromLast": 0,
+      "recentSignalAverage": 115.375
+    },
+    {
+      "key": "BTC:short",
+      "symbol": "BTC",
+      "side": "short",
+      "confluenceCount": 3,
+      "totalMoneyAtRisk": 999000,
+      "convictionScore": 74.33333333333333,
+      "qualityBlend": 83.33333333333333,
+      "abnormalScore": 0.5795111764250909,
+      "signalStrength": 106,
+      "averageEntryAgeDays": 8.000000034722222,
+      "averageWinningHoldDays": 11.611111111111112,
+      "averageTraderHoldDays": 10.142857142857142,
+      "estimatedDaysRemaining": 3.611111076388891,
+      "holdAlignmentScore": 95,
+      "timingRatio": 0.6889952183014353,
+      "clusterTone": "fragile",
+      "openSince": "2026-03-17T11:22:30.108Z",
+      "lastAddAt": "2026-03-19T11:22:30.108Z",
+      "inProfitCount": 0,
+      "underwaterCount": 3,
+      "totalDcaCount": 9,
+      "oneShotCount": 0,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:BTC",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000012",
+          "shortAddress": "0x0000...0012",
+          "traderRank": 12,
+          "traderConviction": 81,
+          "traderQuality": 89,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "BTC",
+          "side": "short",
+          "positionValueUsd": 369000,
+          "unrealizedPnlUsd": -9700,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 3,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000008",
+          "shortAddress": "0x0000...0008",
+          "traderRank": 8,
+          "traderConviction": 71,
+          "traderQuality": 80,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "BTC",
+          "side": "short",
+          "positionValueUsd": 333000,
+          "unrealizedPnlUsd": -14900,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 3,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000004",
+          "shortAddress": "0x0000...0004",
+          "traderRank": 4,
+          "traderConviction": 71,
+          "traderQuality": 81,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "BTC",
+          "side": "short",
+          "positionValueUsd": 297000,
+          "unrealizedPnlUsd": -20100,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 3,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 8.000000034722222
+        }
+      ],
+      "cliqueStrength": 1.3333333333333333,
+      "leadTrader": "0x0000...0012",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000012",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 46,
+      "holdWindowLabel": "9-13 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 4 days left from here.",
+      "tradeExplanation": "3 slower traders are aligned on BTC SHORT, with 0 green and 3 underwater. Average entry age is 8.0 days versus a typical winning hold of 12 days, so this looks workable.",
+      "signalDeltaFromLast": 1,
+      "riskDeltaFromLast": 0,
+      "recentSignalAverage": 118.375
+    }
+  ],
+  "abnormalTrades": [
+    {
+      "key": "HYPE:long",
+      "symbol": "HYPE",
+      "side": "long",
+      "confluenceCount": 9,
+      "totalMoneyAtRisk": 4424000,
+      "convictionScore": 76.55555555555556,
+      "qualityBlend": 81.44444444444444,
+      "abnormalScore": 7.698971304818625,
+      "signalStrength": 228,
+      "averageEntryAgeDays": 9.111111145833332,
+      "averageWinningHoldDays": 11.328042329585537,
+      "averageTraderHoldDays": 10.142857143959434,
+      "estimatedDaysRemaining": 2.216931183752205,
+      "holdAlignmentScore": 93,
+      "timingRatio": 0.8042970604053775,
+      "clusterTone": "reinforced",
+      "openSince": "2026-03-13T11:22:30.108Z",
+      "lastAddAt": "2026-03-21T11:22:30.108Z",
+      "inProfitCount": 6,
+      "underwaterCount": 3,
+      "totalDcaCount": 14,
+      "oneShotCount": 4,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:HYPE",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000017",
+          "shortAddress": "0x0000...0017",
+          "traderRank": 17,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 692000,
+          "unrealizedPnlUsd": 29000,
+          "leverage": 4,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000016",
+          "shortAddress": "0x0000...0016",
+          "traderRank": 16,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 670000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000012",
+          "shortAddress": "0x0000...0012",
+          "traderRank": 12,
+          "traderConviction": 81,
+          "traderQuality": 89,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 582000,
+          "unrealizedPnlUsd": 16500,
+          "leverage": 5,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000011",
+          "shortAddress": "0x0000...0011",
+          "traderRank": 11,
+          "traderConviction": 81,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 560000,
+          "unrealizedPnlUsd": 14000,
+          "leverage": 4,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000005",
+          "shortAddress": "0x0000...0005",
+          "traderRank": 5,
+          "traderConviction": 71,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 428000,
+          "unrealizedPnlUsd": -1000,
+          "leverage": 4,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000004",
+          "shortAddress": "0x0000...0004",
+          "traderRank": 4,
+          "traderConviction": 71,
+          "traderQuality": 81,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 406000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000003",
+          "shortAddress": "0x0000...0003",
+          "traderRank": 3,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 384000,
+          "unrealizedPnlUsd": -6000,
+          "leverage": 5,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "underwater",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000002",
+          "shortAddress": "0x0000...0002",
+          "traderRank": 2,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 362000,
+          "unrealizedPnlUsd": -8500,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "underwater",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000001",
+          "shortAddress": "0x0000...0001",
+          "traderRank": 1,
+          "traderConviction": 71,
+          "traderQuality": 77,
+          "traderAvgHoldDays": 10.142857152777777,
+          "traderAverageWinningHoldDays": 12.000000013888888,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "HYPE",
+          "side": "long",
+          "positionValueUsd": 340000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        }
+      ],
+      "cliqueStrength": 1.3055555555555556,
+      "leadTrader": "0x0000...0017",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000017",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 35,
+      "holdWindowLabel": "8-12 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "tradeExplanation": "9 slower traders are aligned on HYPE LONG, with 6 green and 3 underwater. Average entry age is 9.1 days versus a typical winning hold of 11 days, so this looks workable.",
+      "signalDeltaFromLast": 2,
+      "riskDeltaFromLast": 0,
+      "recentSignalAverage": 227.125
+    },
+    {
+      "key": "ETH:long",
+      "symbol": "ETH",
+      "side": "long",
+      "confluenceCount": 9,
+      "totalMoneyAtRisk": 3190000,
+      "convictionScore": 73.77777777777777,
+      "qualityBlend": 77.88888888888889,
+      "abnormalScore": 5.55147343181994,
+      "signalStrength": 216,
+      "averageEntryAgeDays": 6.888888923611109,
+      "averageWinningHoldDays": 11.664021165564375,
+      "averageTraderHoldDays": 10.142857143959434,
+      "estimatedDaysRemaining": 4.775132241953266,
+      "holdAlignmentScore": 94,
+      "timingRatio": 0.5906101185712126,
+      "clusterTone": "reinforced",
+      "openSince": "2026-03-15T11:22:30.108Z",
+      "lastAddAt": "2026-03-23T11:22:30.108Z",
+      "inProfitCount": 9,
+      "underwaterCount": 0,
+      "totalDcaCount": 11,
+      "oneShotCount": 7,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:ETH",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000018",
+          "shortAddress": "0x0000...0018",
+          "traderRank": 18,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 714000,
+          "unrealizedPnlUsd": 31500,
+          "leverage": 5,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000013",
+          "shortAddress": "0x0000...0013",
+          "traderRank": 13,
+          "traderConviction": 81,
+          "traderQuality": 80,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 604000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000007",
+          "shortAddress": "0x0000...0007",
+          "traderRank": 7,
+          "traderConviction": 71,
+          "traderQuality": 71,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 472000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000006",
+          "shortAddress": "0x0000...0006",
+          "traderRank": 6,
+          "traderConviction": 71,
+          "traderQuality": 71,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 450000,
+          "unrealizedPnlUsd": 1500,
+          "leverage": 5,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000005",
+          "shortAddress": "0x0000...0005",
+          "traderRank": 5,
+          "traderConviction": 71,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 220000,
+          "unrealizedPnlUsd": 4800,
+          "leverage": 2,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000004",
+          "shortAddress": "0x0000...0004",
+          "traderRank": 4,
+          "traderConviction": 71,
+          "traderQuality": 81,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 205000,
+          "unrealizedPnlUsd": 6600,
+          "leverage": 3,
+          "openedAt": "2026-03-18T11:22:30.108Z",
+          "lastAddedAt": "2026-03-20T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 7.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000003",
+          "shortAddress": "0x0000...0003",
+          "traderRank": 3,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 190000,
+          "unrealizedPnlUsd": 8400,
+          "leverage": 2,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000002",
+          "shortAddress": "0x0000...0002",
+          "traderRank": 2,
+          "traderConviction": 71,
+          "traderQuality": 78,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 175000,
+          "unrealizedPnlUsd": 10200,
+          "leverage": 3,
+          "openedAt": "2026-03-20T11:22:30.108Z",
+          "lastAddedAt": "2026-03-22T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 5.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000001",
+          "shortAddress": "0x0000...0001",
+          "traderRank": 1,
+          "traderConviction": 71,
+          "traderQuality": 77,
+          "traderAvgHoldDays": 10.142857152777777,
+          "traderAverageWinningHoldDays": 12.000000013888888,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "ETH",
+          "side": "long",
+          "positionValueUsd": 160000,
+          "unrealizedPnlUsd": 12000,
+          "leverage": 2,
+          "openedAt": "2026-03-21T11:22:30.108Z",
+          "lastAddedAt": "2026-03-23T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 4.000000034722222
+        }
+      ],
+      "cliqueStrength": 1.2777777777777777,
+      "leadTrader": "0x0000...0018",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000018",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 56,
+      "holdWindowLabel": "9-13 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 5 days left from here.",
+      "tradeExplanation": "9 slower traders are aligned on ETH LONG, with 9 green and 0 underwater. Average entry age is 6.9 days versus a typical winning hold of 12 days, so this looks workable.",
+      "signalDeltaFromLast": -56,
+      "riskDeltaFromLast": -926000,
+      "recentSignalAverage": 221.75
+    },
+    {
+      "key": "SOL:long",
+      "symbol": "SOL",
+      "side": "long",
+      "confluenceCount": 4,
+      "totalMoneyAtRisk": 2372000,
+      "convictionScore": 81,
+      "qualityBlend": 83,
+      "abnormalScore": 1.834635315956377,
+      "signalStrength": 133,
+      "averageEntryAgeDays": 9.000000034722222,
+      "averageWinningHoldDays": 10.779761904761905,
+      "averageTraderHoldDays": 10.142857142857142,
+      "estimatedDaysRemaining": 1.7797618700396836,
+      "holdAlignmentScore": 93,
+      "timingRatio": 0.8348978497147064,
+      "clusterTone": "steady",
+      "openSince": "2026-03-13T11:22:30.108Z",
+      "lastAddAt": "2026-03-21T11:22:30.108Z",
+      "inProfitCount": 4,
+      "underwaterCount": 0,
+      "totalDcaCount": 6,
+      "oneShotCount": 2,
+      "chartUrl": "https://www.tradingview.com/chart/?symbol=HYPERLIQUID:SOL",
+      "traders": [
+        {
+          "address": "0x0000000000000000000000000000000000000019",
+          "shortAddress": "0x0000...0019",
+          "traderRank": 19,
+          "traderConviction": 86,
+          "traderQuality": 87,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 736000,
+          "unrealizedPnlUsd": 42000,
+          "leverage": 3,
+          "openedAt": "2026-03-15T11:22:30.108Z",
+          "lastAddedAt": "2026-03-17T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 10.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000014",
+          "shortAddress": "0x0000...0014",
+          "traderRank": 14,
+          "traderConviction": 86,
+          "traderQuality": 86,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.142857142857142,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 100,
+          "traderWinRate30": 1,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 626000,
+          "unrealizedPnlUsd": 21500,
+          "leverage": 4,
+          "openedAt": "2026-03-17T11:22:30.108Z",
+          "lastAddedAt": "2026-03-19T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 8.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000009",
+          "shortAddress": "0x0000...0009",
+          "traderRank": 9,
+          "traderConviction": 81,
+          "traderQuality": 79,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 10.833333333333334,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 95,
+          "traderWinRate30": 1,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 516000,
+          "unrealizedPnlUsd": 9000,
+          "leverage": 5,
+          "openedAt": "2026-03-19T11:22:30.108Z",
+          "lastAddedAt": "2026-03-21T11:22:30.108Z",
+          "dcaCount": 2,
+          "oneShot": false,
+          "pnlState": "profit",
+          "entryAgeDays": 6.000000034722222
+        },
+        {
+          "address": "0x0000000000000000000000000000000000000008",
+          "shortAddress": "0x0000...0008",
+          "traderRank": 8,
+          "traderConviction": 71,
+          "traderQuality": 80,
+          "traderAvgHoldDays": 10.142857142857142,
+          "traderAverageWinningHoldDays": 12,
+          "traderLargeBetWinRate": 1,
+          "traderPatienceScore": 90,
+          "traderWinRate30": 0.5,
+          "symbol": "SOL",
+          "side": "long",
+          "positionValueUsd": 494000,
+          "unrealizedPnlUsd": 6500,
+          "leverage": 4,
+          "openedAt": "2026-03-13T11:22:30.108Z",
+          "lastAddedAt": "2026-03-15T11:22:30.108Z",
+          "dcaCount": 1,
+          "oneShot": true,
+          "pnlState": "profit",
+          "entryAgeDays": 12.000000034722222
+        }
+      ],
+      "cliqueStrength": 1,
+      "leadTrader": "0x0000...0019",
+      "leadTraderAddress": "0x0000000000000000000000000000000000000019",
+      "recentAppearances": 8,
+      "persistenceScore": 1,
+      "persistenceLabel": "sticky",
+      "entryWindowLabel": "workable",
+      "entryWindowScore": 32,
+      "holdWindowLabel": "8-12 days",
+      "lateToTrade": false,
+      "timingRead": "Not first, but still in a workable part of the move.",
+      "durationRead": "Typical winners have around 2 days left from here.",
+      "tradeExplanation": "4 slower traders are aligned on SOL LONG, with 4 green and 0 underwater. Average entry age is 9.0 days versus a typical winning hold of 11 days, so this looks workable.",
+      "signalDeltaFromLast": 1,
+      "riskDeltaFromLast": 0,
+      "recentSignalAverage": 165.375
+    }
+  ],
+  "changes": []
+}

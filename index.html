@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyperliquid Conviction Board</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section id="overview" class="hero">
+        <div class="hero-frame">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Hyperliquid Conviction Board</p>
+              <h1>Track slower, higher-conviction perp traders instead of chasing noise.</h1>
+              <p class="lede">
+                A polished showcase of what you could build if you pay for Nansen CLI:
+                wallet behavior, hold windows, market context, and compressed trade judgment in one place.
+              </p>
+              <div class="hero-badges">
+                <span class="hero-badge">Nansen CLI-powered</span>
+                <span class="hero-badge">Built for swing-style stalking</span>
+                <span class="hero-badge">Transformed analytics, not blind copying</span>
+              </div>
+              <div class="hero-note">
+                <strong>Why this exists:</strong>
+                help a busy human decide what still looks actionable, what is getting crowded,
+                and which slower traders are actually worth stalking.
+              </div>
+            </div>
+            <div class="hero-side">
+              <article class="hero-mini-card">
+                <p class="change-type">What Hits First</p>
+                <h3>Distilled Alpha Before The Deep Dive</h3>
+                <p class="change-summary">
+                  The top of the page should already tell you the best trades, how late you are,
+                  how much smart-trader money is still in, and whether the tape still supports the idea.
+                </p>
+              </article>
+              <article class="hero-mini-card">
+                <p class="change-type">Positioning</p>
+                <h3>"This Is What You Could Build If You Pay For The CLI"</h3>
+                <p class="change-summary">
+                  The public angle is simple: this is a judgment layer on top of Nansen CLI,
+                  meant to be useful before impressive.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="nav-chips">
+            <a href="#overview">Overview</a>
+            <a href="#alpha-now">Alpha Now</a>
+            <a href="#playbook">Playbook</a>
+            <a href="#opportunities">Opportunities</a>
+            <a href="#traders">Traders</a>
+            <a href="#interesting">Interesting</a>
+            <a href="#market-pulse">Market Pulse</a>
+            <a href="#abnormal">Abnormal</a>
+            <a href="#about">About</a>
+          </div>
+          <div class="hero-meta-row">
+            <div class="hero-meta-pill">
+              <span class="hero-meta-label">Public Story</span>
+              <strong>Show the outcome, not the terminal.</strong>
+            </div>
+            <div class="hero-meta-pill">
+              <span class="hero-meta-label">Ideal User</span>
+              <strong>Busy trader, passive operator, curious builder.</strong>
+            </div>
+          </div>
+          <div id="summary" class="summary-grid"></div>
+          <div class="utility-strip">
+            <button id="copy-brief" class="tool-button" type="button">Copy Brief</button>
+            <button id="download-brief" class="tool-button" type="button">Download Brief</button>
+            <button id="copy-share-post" class="tool-button" type="button">Copy X Post</button>
+            <span id="export-status" class="meta"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="disclaimer-strip">
+        <strong>Demo framing:</strong>
+        this page is meant to show the kind of product you can build on top of paid Nansen CLI data,
+        not to pretend the CLI itself is free or that transformed analytics remove trading risk.
+      </section>
+
+      <section id="desk-snapshot" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Fast Scan</p>
+            <h2>Desk Snapshot</h2>
+          </div>
+          <p class="meta">If you only glance once, this should tell you the best idea, the best use of risk, the main avoid, and the trader worth watching.</p>
+        </div>
+        <div id="desk-snapshot-list" class="snapshot-grid"></div>
+      </section>
+
+      <section id="alpha-now" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Distilled Alpha</p>
+            <h2>Top Recommendations Right Now</h2>
+          </div>
+          <p class="meta">This is the compressed answer: what still looks actionable, how late you are, how much trader money is still in, and whether the same wallets historically win on this exact symbol and side.</p>
+        </div>
+        <div id="top-recommendation-list" class="watchlist-grid"></div>
+      </section>
+
+      <section id="market-pulse" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Market Context</p>
+            <h2>Nansen Market Pulse</h2>
+          </div>
+          <p class="meta">Symbol-level regime context from the perp screener: helpful when a wallet cluster looks good, but the tape itself is already overheated or quietly unwinding.</p>
+        </div>
+        <div id="market-pulse-list" class="watchlist-grid"></div>
+      </section>
+
+      <section id="playbook" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Use It Today</p>
+            <h2>Daily Playbook</h2>
+          </div>
+          <p class="meta">If you only have a few minutes, start here.</p>
+        </div>
+        <div id="daily-playbook-list" class="watchlist-grid"></div>
+      </section>
+
+      <section class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Watchlist</p>
+            <h2>Now Watching</h2>
+          </div>
+          <p class="meta">The strongest setups after size, trader quality, and confluence are blended together.</p>
+        </div>
+        <div id="watchlist" class="watchlist-grid"></div>
+      </section>
+
+      <section class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Persistence</p>
+            <h2>Sticky Setups</h2>
+          </div>
+          <p class="meta">Signals that keep surviving across recent refreshes, not just the loudest one right now.</p>
+        </div>
+        <div id="sticky-setups" class="watchlist-grid"></div>
+      </section>
+
+      <section id="opportunities" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Action Board</p>
+            <h2>Money-Making Opportunities</h2>
+          </div>
+          <p class="meta">A simple bias layer for a normal person: stalk, watch, or avoid chasing.</p>
+        </div>
+        <div id="opportunity-list" class="changes-grid"></div>
+      </section>
+
+      <section id="longs" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Long Bias</p>
+            <h2>Best Long Entries</h2>
+          </div>
+          <p class="meta">A timing-first view: are you early, workable, or already too late for these slower traders?</p>
+        </div>
+        <div id="long-ideas-list" class="watchlist-grid"></div>
+      </section>
+
+      <section id="warnings" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Avoid List</p>
+            <h2>Risk Warnings</h2>
+          </div>
+          <p class="meta">The setups that look too crowded, too fragile, or too fresh to trust yet.</p>
+        </div>
+        <div id="risk-warning-list" class="changes-grid"></div>
+      </section>
+
+      <section id="capital" class="panel panel-tight">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Risk Sleeve</p>
+            <h2>Capital Plan</h2>
+          </div>
+          <p id="capital-plan-meta" class="meta"></p>
+        </div>
+        <div id="capital-plan-list" class="watchlist-grid"></div>
+      </section>
+
+      <section id="stalkers" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Who To Follow</p>
+            <h2>Best Traders To Stalk</h2>
+          </div>
+          <p class="meta">The traders whose size, patience, and recent form look most useful for a passive operator.</p>
+        </div>
+        <div id="stalk-trader-list" class="changes-grid"></div>
+      </section>
+
+      <section id="changes" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Changes</p>
+            <h2>What Changed</h2>
+          </div>
+          <p id="change-meta" class="meta"></p>
+        </div>
+        <div id="changes-list" class="changes-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Timeline</p>
+            <h2>Recent Refreshes</h2>
+          </div>
+          <p class="meta">A tiny memory of what the board looked like over the last few snapshots.</p>
+        </div>
+        <div id="timeline-list" class="changes-grid"></div>
+      </section>
+
+      <section id="cliques" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Overlap</p>
+            <h2>Top Clique Pairs</h2>
+          </div>
+          <p class="meta">The recurring trader pairs that keep showing up together in active signals.</p>
+        </div>
+        <div id="clique-list" class="changes-grid"></div>
+      </section>
+
+      <section id="traders" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Board</p>
+            <h2>Top 20 Traders</h2>
+          </div>
+          <p id="meta" class="meta"></p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Trader</th>
+                <th>Quality</th>
+                <th>Conviction</th>
+                <th>Win 12M</th>
+                <th>Win 6M</th>
+                <th>Win 3M</th>
+                <th>Win 30D</th>
+                <th>Avg Hold</th>
+                <th>Style</th>
+                <th>Heat</th>
+                <th>Open Positions</th>
+                <th>Notable Exposure</th>
+                <th>Total PnL</th>
+              </tr>
+            </thead>
+            <tbody id="trader-rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="interesting" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Signals</p>
+            <h2>Interesting Trades</h2>
+          </div>
+          <p class="meta">At least 3 filtered traders aligned on the same asset and side.</p>
+        </div>
+        <div class="control-bar">
+          <label>
+            <span>Search symbol</span>
+            <input id="symbol-search" type="search" placeholder="HYPE, ETH, BTC">
+          </label>
+          <label>
+            <span>Side</span>
+            <select id="side-filter">
+              <option value="all">All</option>
+            </select>
+          </label>
+          <label>
+            <span>Sort</span>
+            <select id="sort-filter">
+              <option value="signal">Signal</option>
+              <option value="risk">Money at risk</option>
+              <option value="abnormal">Abnormality</option>
+              <option value="newest">Newest add</option>
+            </select>
+          </label>
+          <label>
+            <span>Minimum confluence</span>
+            <select id="confluence-filter">
+              <option value="3">3+</option>
+              <option value="4">4+</option>
+              <option value="5">5+</option>
+            </select>
+          </label>
+        </div>
+        <div id="interesting-trades" class="card-grid"></div>
+      </section>
+
+      <section id="abnormal" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Outliers</p>
+            <h2>Abnormal Setups</h2>
+          </div>
+          <p class="meta">Trades with unusual confluence or unusually large money at risk.</p>
+        </div>
+        <div id="abnormal-trades" class="card-grid"></div>
+      </section>
+
+      <section id="about" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">About</p>
+            <h2>What This Project Does</h2>
+          </div>
+          <p class="meta">Built for one practical goal: help a busy human decide what is worth stalking, what is too late, and what should be ignored.</p>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <p class="change-type">Value</p>
+            <h3>It narrows the chaos</h3>
+            <p class="change-summary">
+              Instead of drowning you in every Hyperliquid wallet, it filters toward slower, higher-conviction traders
+              and turns them into a board of setups, long ideas, timing reads, and risk warnings.
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">How It Uses Nansen CLI</p>
+            <h3>It turns raw wallet data into trade context</h3>
+            <p class="change-summary">
+              The refresh script pulls from <code>nansen research perp leaderboard</code>,
+              <code>nansen research profiler perp-trades</code>, <code>nansen research profiler perp-positions</code>,
+              <code>nansen research profiler pnl-summary</code>, and <code>nansen research perp screener</code>,
+              then reconstructs trader behavior: hold windows, same-asset campaign history, daily consistency, downside profile, confluence, clustering, market regime, and current open risk.
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">Method</p>
+            <h3>It distrusts tiny samples on purpose</h3>
+            <p class="change-summary">
+              Win rates are reconstructed from closed campaigns, not raw fills, and then trust-weighted so a wallet with two lucky trades does not look equal to a wallet with deeper evidence.
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">Why It Helps</p>
+            <h3>It answers the actual trading questions</h3>
+            <p class="change-summary">
+              Am I early or late? How long could this trade still have? Which longs are still workable? Which setups are crowded?
+              Which traders are worth stalking instead of blindly copying?
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">What It Is Not</p>
+            <h3>Not blind copytrading</h3>
+            <p class="change-summary">
+              This is a judgment layer, not a one-click signal copier. The point is transformed analytics and better decisions,
+              especially if you have a normal job and only check the market a few times a day.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="cli-engine" class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">CLI Engine</p>
+            <h2>How Nansen CLI Feeds The Board</h2>
+          </div>
+          <p class="meta">The website is not guessing. It chews raw CLI output into timing, clustering, wallet behavior, and simplified trade calls.</p>
+        </div>
+        <div id="cli-usage-list" class="about-grid"></div>
+      </section>
+
+      <footer class="panel footer-panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Publishing Note</p>
+            <h2>What This Demo Is Saying</h2>
+          </div>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <p class="change-type">Message</p>
+            <h3>A useful layer on top of paid Nansen CLI</h3>
+            <p class="change-summary">
+              The message is not "look at my terminal." It is "here is the kind of calmer trading lens
+              you can build once you have the CLI and care enough to transform raw data into judgment."
+            </p>
+          </article>
+          <article class="about-card">
+            <p class="change-type">Tone</p>
+            <h3>Useful before impressive</h3>
+            <p class="change-summary">
+              It is intentionally framed as a practical operator board, not a promise of free money
+              and not a blind copytrading gimmick.
+            </p>
+          </article>
+        </div>
+      </footer>
+    </main>
+
+    <aside id="detail-drawer" class="drawer" hidden>
+      <div id="drawer-backdrop" class="drawer-backdrop"></div>
+      <div class="drawer-panel">
+        <div class="drawer-head">
+          <div>
+            <p id="drawer-eyebrow" class="kicker">Detail</p>
+            <h2 id="drawer-title">Detail</h2>
+          </div>
+          <button id="drawer-close" class="drawer-close" type="button">Close</button>
+        </div>
+        <div id="drawer-content" class="drawer-content"></div>
+      </div>
+    </aside>
+
+    <template id="trade-card-template">
+      <article class="trade-card">
+        <div class="trade-topline">
+          <div>
+            <p class="trade-symbol"></p>
+            <p class="trade-side"></p>
+          </div>
+          <a class="chart-link" target="_blank" rel="noreferrer">Chart</a>
+        </div>
+        <div class="stats-grid"></div>
+        <div class="participants">
+          <p class="participants-title">Participating traders</p>
+          <ul class="participant-list"></ul>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
